@@ -6,7 +6,15 @@
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91)8660 770 698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "Hey There!, I am a Data Scientist but a researcher I am a Ph.D. graduate from the Indian Institute of Technology – Bombay.My research is
+focused on integrating Triboelectric devices for various engineering applications to cater the Industry
+4.0 needs. My research has led to the development of self-powering triboelectric vibration sensors for
+condition monitoring applications, and I have contributed to peer research in several fields, resulting
+in 8 journal articles and 6 conference papers. I am currently working as a Data Scientist at Halliburton,
+where I build AI/ML models for various organizational needs. I have also submitted several ideas (IP)
+for employing ML integration in oil and gas fields for process enhancements at Halliburton.
+I am currently seeking a challenging position to leverage my diverse skillset in solving realworld
+multiphysics problems to drive innovations and create a tangible success story.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
