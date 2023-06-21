@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Dr. Sagar H P",
-    "label": "Data Scientist | Researche Engineer",
+    "label": "Data Scientist | Research Engineer",
     "picture": "https://github.com/hprutvisagar.png",
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "Hey There!, Welcome to my online portfolio! I'm Dr. Sagar H P, a Data Scientist by profession and a Research engineer at heart, with a Ph.D. in triboelectric sensors design and development. I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories",
+    "summary": "Hey There!, Welcome to my online portfolio! I'm Dr. Sagar H P, a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). \n I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories",
    
     "location": { "address": "", "postalCode": "96822", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
     "profiles": [
