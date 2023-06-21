@@ -1,23 +1,16 @@
 {
   "basics": {
     "name": "Dr. Sagar H P",
-    "label": "Data Scientist",
+    "label": "Data Scientist | Researche Engineer",
     "picture": "https://github.com/hprutvisagar.png",
     "email": "sagarhp3589@gmail.com",
-    "phone": "(+91)8660 770 698",
+    "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "Hey There!, I am a Data Scientist but a researcher I am a Ph.D. graduate from the Indian Institute of Technology – Bombay.My research is
-focused on integrating Triboelectric devices for various engineering applications to cater the Industry
-4.0 needs. My research has led to the development of self-powering triboelectric vibration sensors for
-condition monitoring applications, and I have contributed to peer research in several fields, resulting
-in 8 journal articles and 6 conference papers. I am currently working as a Data Scientist at Halliburton,
-where I build AI/ML models for various organizational needs. I have also submitted several ideas (IP)
-for employing ML integration in oil and gas fields for process enhancements at Halliburton.
-I am currently seeking a challenging position to leverage my diverse skillset in solving realworld
-multiphysics problems to drive innovations and create a tangible success story.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "Hey There!, Welcome to my online portfolio! I'm Dr. Sagar H P, a Data Scientist by profession and a Research engineer at heart, with a Ph.D. in triboelectric sensors design and development. I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories",
+   
+    "location": { "address": "", "postalCode": "96822", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
+      { "network": "github", "username": "hprutvisagar", "url": "http://github.com/changeme" },
       { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
       { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
       { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
