@@ -8,61 +8,92 @@
     "website": "https://hprutvisagar.github.io",
     "summary": "Hey There!, Welcome to my online portfolio! I'm a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). <br> I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories",
    
-    "location": { "address": "", "postalCode": "96822", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
+    "location": { "address": "#506,Siri dew drops apartments", "postalCode": "560061", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
     "profiles": [
       { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" },
-      { "network": "img/researchgate.png", "username": "Sagar-HP", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
-      { "network": "img/googlescholar.png", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" }
+      { "network": "./img/researchgate.png", "username": "Sagar-HP", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
+      { "network": "./img/googlescholar.png", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Multidisciplinary Engineering" },
+    { "name": "coding" },
+    { "name": "innovations" },
+    { "name": "Data science" },
+    { "name": "3D modelling and simulations" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Experimentations",
+      "keywords": [ "Prototyping", "Lithography", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Data Science",
+      "keywords": [ "Python","AWS sagemaker","AWS canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","Git/GitHub","All frequently used Data science libraries" ]
+    },
+    {
+      "name": "Scripting languages",
+      "keywords": [ "Matlab","Mathematica","LAMMPS","C++","Arduino" ]
+    },
+    {
+      "name": "3D modelling tools",
+      "keywords": ["Creo", "Solidworks","AutoCAD", "Catia"]
+    },
+    {
+      "name": "Simulation tools",
+      "keywords": ["COMSOL Multiphysics","Ansys","Ansa","LS-Dyna","LT-spice","Hypermesh"]
     }
+    
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "institution": "Indian Institute of Technology Bombay, (IN)",
+      "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
+      "studyType": "Ph.D.",
+      "startDate": "2016",
+      "endDate": "2021",
+      "summary": "8.6/10"
+    },
+    {
+      "institution": "National Institute of Technology Karnatka, Surathkal (IN)",
+      "area": "Nanotechnology",
+      "studyType": "M.Tech",
+      "startDate": "2013",
+      "endDate": "2015",
+      "summary": "9.5/10"
+    },
+    {
+      "institution": "Dr. Ambedkar Institute of Technology Bengaluru (IN)",
+      "area": "Mechanical Engineering",
+      "studyType": "B.Tech",
+      "startDate": "2007",
+      "endDate": "2011",
+      "summary": "71.8/100"
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Halliburton",
+      "position": "Data Scientist",
+      "website": "https://www.halliburton.com/",
+      "startDate": "2021",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Data Science Services group",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Developing Machine learning models",
+        "Supporting company outreach activities by preparing technical abstracts",
+        "Translating business needs into Data Science problem statements",
+        "Successfully submitted several abstracts for conferences",
+        "Submitted a few patents to utilize triboelectric sensors in drilling operations (currently under review)",
       ]
     },
+    
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Gorgonian Technologies",
+      "position": "Senior Structural Analyst (consulting)",
+      "startDate": "2019",
+      "endDate": "2021",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
