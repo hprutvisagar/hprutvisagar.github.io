@@ -12,7 +12,7 @@
     "profiles": [
       { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" },
-      { "network": "./img/researchgate.png", "username": "Sagar-HP", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
+      { "network": "./img/researchgate.png", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
       { "network": "./img/googlescholar.png", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" }
     ]
   },
@@ -76,30 +76,58 @@
     {
       "company": "Halliburton",
       "position": "Data Scientist",
-      "website": "https://www.halliburton.com/",
+      "website": "",
       "startDate": "2021",
       "endDate": "Present",
       "summary": "Data Science Services group",
       "highlights": [
-        "Developing Machine learning models",
-        "Supporting company outreach activities by preparing technical abstracts",
+        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction)",
+        "Designing and optimizing High level architecture for ML model development, deployment and consumption",
+        "Supporting company outreach activities by preparing technical abstracts for conferences",
         "Translating business needs into Data Science problem statements",
-        "Successfully submitted several abstracts for conferences",
-        "Submitted a few patents to utilize triboelectric sensors in drilling operations (currently under review)",
+        "Submitted a patents to utilize triboelectric sensors for monitoring drilling operations (currently under review)",
       ]
     },
-    
+
     {
       "company": "Gorgonian Technologies",
       "position": "Senior Structural Analyst (consulting)",
       "startDate": "2019",
       "endDate": "2021",
-      "summary": "",
+      "summary": "Translating a designers idea into an engineered product",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Majorly contributed to the designing of small-scale wind turbine (Zeintein)",
+        "Understanding the mechanism and their kinetics",
+        "Translating rough sketches into CAD models for engineering analysis ",
+      ]
+    },
+
+    {
+      "company": "Aumeesh Technologies",
+      "position": "Consulting Mechanical Engineer",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Here i mojorly performed various engineering analysis for a leg prosthetic",
+      "highlights": [
+        "Created pivotal documents for fund raising and outreach activities",
+        "Performed GAIT analysis, static, dynamic and failure analysis for design optimizations",
+        "Actively involved in performing static analysis, kinetic analysis and mechanism optimization for the leg prosthetic by utilizing DFx concepts (manufacturability, assembly and enduse)"
+      ]
+    },
+    
+    {
+      "company": "HCL technologies",
+      "position": "Mechanical (CAD) Engineer",
+      "startDate": "2011",
+      "endDate": "2013",
+      "summary": "I performed various ",
+      "highlights": [
+        "Created pivotal documents for fund raising and outreach activities",
+        "Performed GAIT analysis, static, dynamic and failure analysis for design optimizations",
+        "Actively involved in performing static analysis, kinetic analysis and mechanism optimization for the leg prosthetic by utilizing DFx concepts (manufacturability, assembly and enduse)"
       ]
     }
+    
   ],
   "volunteer": [
     {
