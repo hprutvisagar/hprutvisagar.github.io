@@ -6,23 +6,26 @@
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "<center>Hey There!, Welcome to my online portfolio! I'm a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). <br> I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories</center>",
+    "summary": "<center>Hey There!, Welcome to my online portfolio! <br> I'm a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). <br> I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. <br>I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories</center>",
    
     "location": { "address": "#506,Siri dew drops apartments", "postalCode": "560061", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
     "profiles": [
-      { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
-      { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" },
+      { "network": "googlescholar", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" },
       { "network": "researchgate", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
-      { "network": "./img/googlescholar.png", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" }
+      { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
+      { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" }
     ]
   },
-  "<b>Interests</b>": [
-    { "name": "Multidisciplinary engineering" },
-    { "name": "Coding" },
-    { "name": "Innovations" },
+
+  "interests": [
+    { "name": "Multidisciplinary engineer" },
+    { "name": "Modelling & simulations" },
     { "name": "Data science" },
-    { "name": "3D modelling and simulations" }
+    { "name": "Research & Development" },
+    { "name": "Innovations"},
+    { "name": "Coding"}
   ],
+
   "skills": [
     {
       "name": "Experimentations",
@@ -52,7 +55,7 @@
       "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
       "studyType": "Ph.D.",
       "startDate": "2016",
-      "endDate": "2021",
+      "endDate": "2022",
       "summary": "8.6/10"
     },
     {
@@ -85,7 +88,7 @@
         "Designing and optimizing High level architecture for ML model development, deployment and consumption",
         "Supporting company outreach activities by preparing technical abstracts for conferences",
         "Translating business needs into Data Science problem statements",
-        "Submitted a patents to utilize triboelectric sensors for monitoring drilling operations (currently under review)",
+        "Submitted a patents to utilize triboelectric sensors for monitoring drilling operations (currently under review)"
       ]
     },
 
@@ -98,7 +101,7 @@
       "highlights": [
         "Majorly contributed to the designing of small-scale wind turbine (Zeintein)",
         "Understanding the mechanism and their kinetics",
-        "Translating rough sketches into CAD models for engineering analysis ",
+        "Translating rough sketches into CAD models for engineering analysis "
       ]
     },
 
@@ -123,8 +126,7 @@
       "summary": "Here, my majority of the responsibilities included in the following activities ",
       "highlights": [
         "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses",
-        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly",
-        ""
+        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly"
       ]
     }
     
