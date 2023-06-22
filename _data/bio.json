@@ -12,14 +12,14 @@
     "profiles": [
       { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" },
-      { "network": "123x", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
+      { "network": "researchgate", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
       { "network": "./img/googlescholar.png", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" }
     ]
   },
-  "interests": [
-    { "name": "Multidisciplinary Engineering" },
-    { "name": "coding" },
-    { "name": "innovations" },
+  "<b>Interests</b>": [
+    { "name": "Multidisciplinary engineering" },
+    { "name": "Coding" },
+    { "name": "Innovations" },
     { "name": "Data science" },
     { "name": "3D modelling and simulations" }
   ],
@@ -134,16 +134,11 @@
      "title":"Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator",
      "authors":"<b>SH Prutvi</b>, M Korrapati, D Gupta",
      "journal":"<i>Measurement Science and Technology</i> 33 (7), 075115",
-     "DOI":"<a href="https://iopscience.iop.org/article/10.1088/1361-6501/ac5b2b/meta"> 10.1088/1361-6501/ac5b2b </a>"
-   },
-     {
-     "title":"",
-     "pulication year":
-     "DOI":
-     "link":
-   } 
+     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/ac5b2b/meta'> 10.1088/1361-6501/ac5b2b </a>"
+   }
     
   ],
+
   "volunteer": [
     {
       "organization": "Indian Institute of Technology Bombay",
@@ -151,7 +146,7 @@
       "position": "MEMS Departmental coordinator",
       "startDate": "2017",
       "endDate": "2018",
-      "summary": "coordinated for various departmental activities,
+      "summary": "coordinated for various departmental activities",
       "highlights": [
         "orientation for new joinees",
         "facilitating recruitment activities"
