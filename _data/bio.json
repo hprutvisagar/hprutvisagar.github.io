@@ -6,7 +6,7 @@
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "Hey There!, Welcome to my online portfolio! I'm a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). <br> I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories",
+    "summary": "<center>Hey There!, Welcome to my online portfolio! I'm a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). <br> I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories</center>",
    
     "location": { "address": "#506,Siri dew drops apartments", "postalCode": "560061", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
     "profiles": [
@@ -26,11 +26,11 @@
   "skills": [
     {
       "name": "Experimentations",
-      "keywords": [ "Prototyping", "Lithography", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
+      "keywords": [ "Rapid Prototyping", "Lithography", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
     },
     {
       "name": "Data Science",
-      "keywords": [ "Python","AWS sagemaker","AWS canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","Git/GitHub","All frequently used Data science libraries" ]
+      "keywords": [ "Python","AWS sagemaker","AWS canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","numpy","Git/GitHub"]
     },
     {
       "name": "Scripting languages",
@@ -48,7 +48,7 @@
   ],
   "education": [
     {
-      "institution": "Indian Institute of Technology Bombay, (IN)",
+      "institution": "Indian Institute of Technology Bombay (IN)",
       "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
       "studyType": "Ph.D.",
       "startDate": "2016",
@@ -120,26 +120,41 @@
       "position": "Mechanical (CAD) Engineer",
       "startDate": "2011",
       "endDate": "2013",
-      "summary": "I performed various ",
+      "summary": "Here, my majority of the responsibilities included in the following activities ",
       "highlights": [
-        "Created pivotal documents for fund raising and outreach activities",
-        "Performed GAIT analysis, static, dynamic and failure analysis for design optimizations",
-        "Actively involved in performing static analysis, kinetic analysis and mechanism optimization for the leg prosthetic by utilizing DFx concepts (manufacturability, assembly and enduse)"
+        "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses",
+        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly",
+        ""
       ]
     }
     
   ],
+  "Publications": [
+   {
+     "title":"Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator",
+     "authors":"<b>SH Prutvi</b>, M Korrapati, D Gupta",
+     "journal":"<i>Measurement Science and Technology</i> 33 (7), 075115",
+     "DOI":"<a href="https://iopscience.iop.org/article/10.1088/1361-6501/ac5b2b/meta"> 10.1088/1361-6501/ac5b2b </a>"
+   },
+     {
+     "title":"",
+     "pulication year":
+     "DOI":
+     "link":
+   } 
+    
+  ]
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
+      "organization": "Indian Institute of Technology Bombay",
       "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "position": "MEMS Departmental coordinator",
+      "startDate": "2017",
+      "endDate": "2018",
+      "summary": "coordinated for various departmental activities,
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "orientation for new joinees",
+        "facilitating recruitment activities"
       ]
     },
     {
