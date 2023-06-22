@@ -8,7 +8,16 @@
     "website": "https://hprutvisagar.github.io",
     "summary": "<center>Hey There!, Welcome to my online portfolio! <br> I'm a Data Scientist by profession and a Researcher at heart (with a Ph.D. in triboelectric sensors design and development from Indian Institute of Technology Bombay). <br> I specialize in data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and visualization tools like PowerBI, I excel at solving complex real-world problems and extracting valuable insights from diverse datasets. My expertise includes developing predictive models, regression models, classification algorithms, and anomaly detection techniques. I am known for creating impactful data visualizations and conducting thorough, data-driven research. Through effective collaboration and communication, I deliver innovative, data-driven solutions by partnering with cross-functional teams. <br>I thrive on tackling real-world multiphysics problems and leveraging my diverse skill set to create tangible success stories</center>",
    
-    "location": { "address": "#506,Siri dew drops apartments", "postalCode": "560061", "city": "Bengaluru", "countryCode": "IN", "region": "Karnataka" },
+    "location": { 
+      "address": "#506, Siri Dew Drops Apartments", 
+      "address2": "Ramanjaneya Nagara, Arehalli",
+      "postalCode": "560061", 
+      "city": "Bengaluru", 
+      "countryCode": "(India)", 
+      "region": "Karnataka" 
+      },
+
+
     "profiles": [
       { "network": "googlescholar", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" },
       { "network": "researchgate", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
@@ -19,9 +28,9 @@
 
   "interests": [
     { "name": "Multidisciplinary engineer" },
+    { "name": "Research & Development" },
     { "name": "Modelling & simulations" },
     { "name": "Data science" },
-    { "name": "Research & Development" },
     { "name": "Innovations"},
     { "name": "Coding"}
   ],
@@ -51,28 +60,28 @@
   ],
   "education": [
     {
-      "institution": "Indian Institute of Technology Bombay (IN)",
+      "institution": "Indian Institute of Technology Bombay (India)",
       "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
       "studyType": "Ph.D.",
       "startDate": "2016",
       "endDate": "2022",
-      "summary": "8.6/10"
+      "finalgrade": "8.6 GPA"
     },
     {
-      "institution": "National Institute of Technology Karnatka, Surathkal (IN)",
+      "institution": "National Institute of Technology Karnataka, Surathkal (India)",
       "area": "Nanotechnology",
       "studyType": "M.Tech",
       "startDate": "2013",
       "endDate": "2015",
-      "summary": "9.5/10"
+      "finalgrade": "9.5 GPA"
     },
     {
-      "institution": "Dr. Ambedkar Institute of Technology Bengaluru (IN)",
+      "institution": "Dr. Ambedkar Institute of Technology Bengaluru (India)",
       "area": "Mechanical Engineering",
       "studyType": "B.Tech",
       "startDate": "2007",
       "endDate": "2011",
-      "summary": "71.8/100"
+      "finalgrade": "71.8 %"
     }
   ],
   "work": [
@@ -131,12 +140,70 @@
     }
     
   ],
-  "Publications": [
+
+  "publications": [
    {
      "title":"Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator",
      "authors":"<b>SH Prutvi</b>, M Korrapati, D Gupta",
-     "journal":"<i>Measurement Science and Technology</i> 33 (7), 075115",
-     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/ac5b2b/meta'> 10.1088/1361-6501/ac5b2b </a>"
+     "journal":"<i>Measurement Science and Technology</i> 33 (7), 075115 (2022)",
+     "date" : "2022",
+     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/ac5b2b/meta'> https://doi.org/10.1088/1361-6501/ac5b2b </a>"
+   },
+
+   {
+     "title":"Rapid one step fabrication of hydrophilic hierarchical porous PDMS with negative piezopermittivity for sensing and energy storage applications",
+     "authors":"C Parameswaran, RP Chaudhary, <b>S Hosangadi Prutvi</b>, D Gupta",
+     "journal":"<i>ACS Applied Polymer Materials </i> 4 (3), 2047-2056 (2022)",
+     "date" : "2022",
+     "DOI":"<a href='https://pubs.acs.org/doi/abs/10.1021/acsapm.1c00593'> https://doi.org/10.1021/acsapm.1c00593 </a>"
+   },
+
+   {
+     "title":"Assessment of triboelectricity in colossal-surface-area-lanthanum oxide nanocrystals synthesized via low-temperature hydrothermal process",
+     "authors":"S Meti, <b>HP Sagar</b>, MR Rahman, KU Bhat",
+     "journal":"<i>Journal of Materials Science: Materials in Electronics </i> 32, 20351-20361 (2021)",
+     "date" : "2021",
+     "DOI":"<a href='https://link.springer.com/article/10.1007/s10854-021-06545-7#citeas'> https://doi.org/10.1007/s10854-021-06545-7 </a>"
+   },
+
+   {
+     "title":"Triboelectric effect based self-powered compact vibration sensor for predictive maintenance of industrial machineries",
+     "authors":"<b>HP Sagar</b>, S Meti, UK Bhat, D Gupta",
+     "journal":"<i>Measurement Science and Technology  </i> 32 (9), 095119 (2021)",
+     "date" : "2021",
+     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/abe6d2/meta'> https://doi.org/10.1088/1361-6501/abe6d2 </a>"
+   },
+
+   {
+     "title":"Newly developed thermoplastic polyolefin encapsulant–A potential candidate for crystalline silicon photovoltaic modules encapsulation",
+     "authors":"Baloji Adothu, Parth Bhatt, Shashwata Chattopadhyay, Sarita Zele, Jeroen Oderkerk, <b>HP Sagar</b>, Francis Reny Costa, Sudhanshu Mallick",
+     "journal":"<i>Solar Energy  </i> 194, 581-588 (2019)",
+     "date" : "2019",
+     "DOI":"<a href='https://www.sciencedirect.com/science/article/abs/pii/S0038092X19311089'> https://doi.org/10.1016/j.solener.2019.11.018 </a>"
+   },
+
+   {
+     "title":"A single step unique microstructural growth of porous colossal dielectric constant titanium oxide",
+     "authors":"S Meti, <b>SP Hosangadi</b>, MR Rahman, UK Bhat",
+     "journal":"<i>Applied Physics A</i> 125, 1-10 (2019)",
+     "date" : "2019",
+     "DOI":"<a href='https://link.springer.com/article/10.1007/s00339-019-2477-0'> https://doi.org/10.1007/s00339-019-2477-0 </a>"
+   },
+
+   {
+     "title":"Transient dynamic distributed strain sensing using photonic crystal waveguides",
+     "authors":"<b>HP Sagar</b>, V Mahalingam, DR Mahapatra, G Hegde, S Hanagud, MR Rahman",
+     "journal":"<i>Applied Optics </i> 56 (28), 7877-7885 (2017)",
+     "date" : "2017",
+     "DOI":"<a href='https://opg.optica.org/ao/abstract.cfm?uri=ao-56-28-7877'> https://doi.org/10.1364/AO.56.007877 </a>"
+   },
+
+   {
+     "title":"Efficient light trapping and interface engineering for performance enhancement in PTB7-Th: PC70BM organic solar cells",
+     "authors":"K Borse, R Sharma, <b>HP Sagar</b>, PA Reddy, D Gupta, A Yella",
+     "journal":"<i>Organic Electronics</i> 41, 280-286 (2017)",
+     "date" : "2017",
+     "DOI":"<a href='https://www.sciencedirect.com/science/article/abs/pii/S1566119916304979'> https://doi.org/10.1016/j.orgel.2016.11.016 </a>"
    }
     
   ],

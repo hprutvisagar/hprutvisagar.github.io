@@ -31,7 +31,9 @@ layout: home
       </div>
       <div class="col">
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address2 }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }} - {{ site.data.bio.basics.location.postalCode }} </p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.countryCode }}</p>
         <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
       </div>
     </div>
@@ -80,6 +82,7 @@ layout: home
             <div class="col-9">
               <p class="m-0"><b>{{ entry.institution }}</b></p>
               <p class="m-0">{{ entry.studyType }}, {{ entry.area }}</p>
+              <p class="m-0">Final Grade: <b> {{ entry.finalgrade }} </b></p>
               {% if entry.courses %}
                 <ul>
                   {% for course in entry.courses %}
@@ -195,6 +198,35 @@ layout: home
           {% endfor %}
         </div>
       </div>
+    {% endif %}
+
+    {% if site.data.bio.publications %}
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Publications</h1>
+      </div>
+
+      <div class="col-lg-9">
+      {% for entry in site.data.bio.publications %}
+        <div class="row mb-3">
+          <div class="col-9">
+            <p class="mb-0">
+              <b>{{ entry.title }}</b>
+            </p>
+            <p class="mb-0">{{ entry.authors }}</p>
+            <p class="mb-0"> {{ entry.journal }} </p>
+            <p class="mb-0"> {{ entry.DOI }} </p>
+          </div>
+
+          <div class="col-3">
+            <p class="m-0 text-end">
+              {{ entry.date}}
+            </p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
     {% endif %}
 
     {% if site.data.bio.awards %}
