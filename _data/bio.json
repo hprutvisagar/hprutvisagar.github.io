@@ -12,7 +12,7 @@
     "profiles": [
       { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" },
-      { "network": "./img/researchgate.png", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
+      { "network": "123x", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
       { "network": "./img/googlescholar.png", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" }
     ]
   },
