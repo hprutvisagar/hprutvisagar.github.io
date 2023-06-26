@@ -3,12 +3,14 @@ layout: project
 type: project
 image: img/vibrationsensor/vibrationsensor.png
 title: "Tribo-electric vibration sensing"
-date: 2014-2016
+date: 2020-2021
 published: true
 labels:
   - vibration sensors
   - Tribo-electric technology
   - self-powering devices
+  - Rapid prototyping
+  - microcontroller
 summary: "vibration sensors developed using triboelectric technology for condition monitoring."
 ---
 
@@ -21,6 +23,8 @@ summary: "vibration sensors developed using triboelectric technology for conditi
 </style>
 
 <img class="img-fluid" src="../img/vibrationsensor/vibrationsensor.png">
+
+With an objective of exploring the triboelectric devices in various engineering applications, i shave shortlisted vibration sensors to start the sensors design journey.
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 

@@ -1,13 +1,16 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "AI and ML"
-date: 2015
+image: img/ml.png
+title: "Artificial Intillegance and Machine Learning"
+date: 2022-preseent
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "Portfolio projects showcasing AI/ML skillsets"
+  - Machine learning models (Regression, classification, anamoly detections, Time series analysis, Forecasting)
+  - Artificial Neural Networks
+  - AWS Sagemaker & Canvas
+  - Deployment architecture and optimization
+  - Numpy, Pandas & Seaborn
+  - TensorFlow (Keras)
+summary: "Portfolio projects using public datasets"
 ---
