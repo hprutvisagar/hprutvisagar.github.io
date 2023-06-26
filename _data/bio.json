@@ -141,7 +141,7 @@
     
   ],
 
-  "publications": [
+  "main_pubs": [
    {
      "title":"Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator",
      "authors":"<b>SH Prutvi</b>, M Korrapati, D Gupta",
@@ -151,6 +151,25 @@
    },
 
    {
+     "title":"Triboelectric effect based self-powered compact vibration sensor for predictive maintenance of industrial machineries",
+     "authors":"<b>HP Sagar</b>, S Meti, UK Bhat, D Gupta",
+     "journal":"<i>Measurement Science and Technology  </i> 32 (9), 095119 (2021)",
+     "date" : "2021",
+     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/abe6d2/meta'> https://doi.org/10.1088/1361-6501/abe6d2 </a>"
+   },
+
+   {
+     "title":"Transient dynamic distributed strain sensing using photonic crystal waveguides",
+     "authors":"<b>HP Sagar</b>, V Mahalingam, DR Mahapatra, G Hegde, S Hanagud, MR Rahman",
+     "journal":"<i>Applied Optics </i> 56 (28), 7877-7885 (2017)",
+     "date" : "2017",
+     "DOI":"<a href='https://opg.optica.org/ao/abstract.cfm?uri=ao-56-28-7877'> https://doi.org/10.1364/AO.56.007877 </a>"
+   }
+  ],
+
+  "co_author_pubs":[
+    
+    {
      "title":"Rapid one step fabrication of hydrophilic hierarchical porous PDMS with negative piezopermittivity for sensing and energy storage applications",
      "authors":"C Parameswaran, RP Chaudhary, <b>S Hosangadi Prutvi</b>, D Gupta",
      "journal":"<i>ACS Applied Polymer Materials </i> 4 (3), 2047-2056 (2022)",
@@ -164,15 +183,7 @@
      "journal":"<i>Journal of Materials Science: Materials in Electronics </i> 32, 20351-20361 (2021)",
      "date" : "2021",
      "DOI":"<a href='https://link.springer.com/article/10.1007/s10854-021-06545-7#citeas'> https://doi.org/10.1007/s10854-021-06545-7 </a>"
-   },
-
-   {
-     "title":"Triboelectric effect based self-powered compact vibration sensor for predictive maintenance of industrial machineries",
-     "authors":"<b>HP Sagar</b>, S Meti, UK Bhat, D Gupta",
-     "journal":"<i>Measurement Science and Technology  </i> 32 (9), 095119 (2021)",
-     "date" : "2021",
-     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/abe6d2/meta'> https://doi.org/10.1088/1361-6501/abe6d2 </a>"
-   },
+   },    
 
    {
      "title":"Newly developed thermoplastic polyolefin encapsulant–A potential candidate for crystalline silicon photovoltaic modules encapsulation",
@@ -188,15 +199,7 @@
      "journal":"<i>Applied Physics A</i> 125, 1-10 (2019)",
      "date" : "2019",
      "DOI":"<a href='https://link.springer.com/article/10.1007/s00339-019-2477-0'> https://doi.org/10.1007/s00339-019-2477-0 </a>"
-   },
-
-   {
-     "title":"Transient dynamic distributed strain sensing using photonic crystal waveguides",
-     "authors":"<b>HP Sagar</b>, V Mahalingam, DR Mahapatra, G Hegde, S Hanagud, MR Rahman",
-     "journal":"<i>Applied Optics </i> 56 (28), 7877-7885 (2017)",
-     "date" : "2017",
-     "DOI":"<a href='https://opg.optica.org/ao/abstract.cfm?uri=ao-56-28-7877'> https://doi.org/10.1364/AO.56.007877 </a>"
-   },
+   },   
 
    {
      "title":"Efficient light trapping and interface engineering for performance enhancement in PTB7-Th: PC70BM organic solar cells",
@@ -205,7 +208,7 @@
      "date" : "2017",
      "DOI":"<a href='https://www.sciencedirect.com/science/article/abs/pii/S1566119916304979'> https://doi.org/10.1016/j.orgel.2016.11.016 </a>"
    }
-    
+
   ],
 
   "volunteer": [
