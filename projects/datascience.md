@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ml.png
+image: img/datascience/ml.png
 title: "Artificial Intillegance and Machine Learning"
 date: 2022-preseent
 published: true
