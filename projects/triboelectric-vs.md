@@ -7,10 +7,10 @@ date: 2018-2021
 published: true
 labels:
   - vibration sensors
-  - Tribo-electric technology
+  - Tribo electric technology
+  - condition monitoring
   - self-powering devices
   - Rapid prototyping
-  - microcontroller
 summary: "Vibration sensors developed using tribo electric technology for condition monitoring"
 ---
 

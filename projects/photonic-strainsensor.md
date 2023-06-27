@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/pc/tr.png
 title: "Photonic crystal based strain sensor"
 date: 2014
 published: true
