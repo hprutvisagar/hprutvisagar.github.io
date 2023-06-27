@@ -1,7 +1,7 @@
 ---
-layout: project
-type: project
-image: img/vibrationsensor/vibrationsensor.png
+layout: home
+type: datascience_project
+image: img/datascience/turbojet.png
 title: "Remaining useful life predictions of nasa's turbofan dataset"
 date: 2021
 published: true
