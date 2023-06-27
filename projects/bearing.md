@@ -1,7 +1,7 @@
 ---
 layout: project
 type: datascience_project
-image: img/datascience/bearing.png
+image: img/datascience/bearing.jpg
 title: "Health monitoring of bearings using sensor data"
 date: 2021
 published: true
