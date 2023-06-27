@@ -6,8 +6,11 @@ title: "Artificial Intillegance and Machine Learning"
 date: 2022-preseent
 published: true
 labels:
-  - Machine learning models (Regression, classification, anamoly detections, Time series analysis, Forecasting)
+  - Machine learning models
+  - Stastistical models
   - Artificial Neural Networks
+  - Regression, & classification models
+  - Anamoly detection, Time series analysis & Forecasting
   - AWS Sagemaker & Canvas
   - Deployment architecture and optimization
   - Numpy, Pandas & Seaborn
