@@ -14,6 +14,8 @@ labels:
 summary: "vibration sensors developed using triboelectric technology for condition monitoring."
 ---
 
+{% include projects/vibration_sensors.html limit=4 %}
+
 <style>
   .img-fluid {
     max-width: 500px;
