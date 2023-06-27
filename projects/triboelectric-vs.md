@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/vibrationsensor/vibrationsensor.png
-title: "Tribo-electric vibration sensing"
-date: 2020-2021
+image: img/vibrationsensor/vs.png
+title: "Tribo electric vibration sensing"
+date: 2018-2021
 published: true
 labels:
   - vibration sensors
@@ -11,7 +11,7 @@ labels:
   - self-powering devices
   - Rapid prototyping
   - microcontroller
-summary: "vibration sensors developed using triboelectric technology for condition monitoring."
+summary: "Vibration sensors developed using tribo electric technology for condition monitoring"
 ---
 
 {% include projects/vibration_sensors.html limit=4 %}

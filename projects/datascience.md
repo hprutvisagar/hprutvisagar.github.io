@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/datascience/ml.png
 title: "Artificial Intillegance and Machine Learning"
-date: 2022-preseent
+date: 2021-preseent
 published: true
 labels:
   - Machine learning models
