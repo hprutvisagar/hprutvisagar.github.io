@@ -39,7 +39,7 @@ the bearing which is more than 100 million revolutions.</p>
 
 <img src="../img/datascience/data%20preprocessing.png" Height=500px width=Auto >
 
-<h4>fault identification and labelling</h4>
+<h4>Fault identification and labelling</h4>
 
 <img src="../img/datascience/bearing-fi.png" Height=350px width=Auto >
 
