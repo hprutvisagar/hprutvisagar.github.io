@@ -14,61 +14,13 @@ labels:
 summary: "Vibration sensors developed using tribo electric technology for condition monitoring"
 ---
 
+<div style="text-align: justify;">
+  <p>The current utilization of vibration sensors in industries predominantly relies on piezoelectric-based devices. However,   these devices have limitations as their active components endure continuous mechanical loading, resulting in a limited service  life. Moreover, these sensors require dedicated mounting facilities such as magnetic mounting or mechanical fasteners.</p>
+
+  <p>The implementation of Industry 4.0 has further escalated the number of connected devices globally, with an estimated   increase from 50.1 billion (2023) to 75 billion in just two years. Consequently, this rapid growth also translates to an  increased global energy demand, necessitating the development of self-powered sensors or alternative energy sources that can   be harnessed locally. </p>
+
+  <p>In order to tackle these challenges presented by Industry 4.0 and the ever-growing energy demands, we have successfully  designed and developed easy-to-mount vibration sensors based on triboelectric nanogenerator (TENG) technology. These   TENG-based sensors not only provide self-powering capabilities but also offer a convenient mounting solution. </p>
+
+</div>
+Vibration sensor projects are:
 {% include projects/vibration_sensors.html limit=4 %}
-
-<style>
-  .img-fluid {
-    max-width: 500px;
-    height: auto;
-    align-items: center;
-  }
-</style>
-
-<img class="img-fluid" src="../img/vibrationsensor/vibrationsensor.png">
-
-With an objective of exploring the triboelectric devices in various engineering applications, i shave shortlisted vibration sensors to start the sensors design journey.
-
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
-
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
