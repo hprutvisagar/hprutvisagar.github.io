@@ -7,10 +7,40 @@ date: 2021
 published: true
 labels:
   - Time series analysis
+  - stastical modeling
   - RUL prediction
   - condition/health monitoring
   - Time domain analysis
 summary: "Using the Time domain sensors data, we aim to predict the health of the bearing and inturn estimate the RUL"
 ---
 
-<img class="img-fluid" src="../img/datascience/bearing.png">
+<h3> Problem statement </h3>
+<p>Four bearings were installed on a shaft. The rotation speed was kept constant at 2000 RPM by an AC
+motor coupled to the shaft via rub belts. A radial load of 6000 lbs is applied onto the shaft and bearing
+by a spring mechanism. All bearings are force lubricated. </p>
+
+<p>Rexnord ZA-2115 double row bearings were installed on the shaft as shown in experimental setup. PCB 353B33
+High Sensitivity Quartz ICP accelerometers were installed on the bearing housing (two accelerometers
+for each bearing [x- and y-axes] for data set 1, one accelerometer for each bearing for data sets 2 and 3).
+Sensor placement is also shown in schematic. All failures occurred after exceeding designed life time of
+the bearing which is more than 100 million revolutions.</p>
+
+<div class="text-center p-4">
+  <img width="350px" src="../img/datascience/exp_setup.png" class="img-thumbnail" >
+  <img width="350px" src="../img/datascience/exp_schematic.png" class="img-thumbnail" >
+  <img width="350px" src="../img/datascience/bearing_anatomy.png" class="img-thumbnail" >
+</div>
+
+<h4>EDA</h4>
+
+<img src="../img/datascience/bearing-eda.png" Height=350px width=Auto >
+
+<h4>Data preprocessing</h4>
+
+<img src="../img/datascience/data%20preprocessing.png" Height=500px width=Auto >
+
+<h4>fault identification and labelling</h4>
+
+<img src="../img/datascience/bearing-fi.png" Height=350px width=Auto >
+
+Source: <a href="https://github.com/hprutvisagar/IMX_bearing_dataset.git">hprutvisagar/IMX_bearing_dataset</a>

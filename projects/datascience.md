@@ -12,9 +12,6 @@ labels:
   - Regression, & classification models
   - Anamoly detection, Time series analysis & Forecasting
   - AWS Sagemaker & Canvas
-  - Deployment architecture and optimization
-  - Numpy, Pandas & Seaborn
-  - TensorFlow (Keras)
 summary: "Portfolio projects using public datasets"
 ---
 
