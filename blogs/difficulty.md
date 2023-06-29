@@ -1,17 +1,17 @@
 ---
-layout: essay
-type: essay
+layout: blogs
+type: blog
 title: "The difficult things will always be difficult"
 # All dates must be YYYY-MM-DD format!
 date: 2016-02-06
-published: true
+published: True
 labels:
   - Engineering
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+_Difficulty: a thing that is hard to accomplish, deal with, or understand._
 
 One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
 

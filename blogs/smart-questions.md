@@ -1,10 +1,10 @@
 ---
-layout: essay
-type: essay
+layout: blogs
+type: blog
 title: "Smart Questions, Good Answers"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
-published: true
+published: True
 labels:
   - Questions
   - Answers
@@ -30,14 +30,14 @@ I am trying to get the date of the previous month with python. Here is what i've
 
 str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
+However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202)
 and secondly it will return 0 instead of 12 on January.
 
 I have solved this trouble in bash with:
 
 echo $(date -d"3 month ago" "+%G%m%d")
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
+I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something
 better than forcing writing one's own script to achieve this goal. Of course i could do something like:
 
 if int(time.strftime('%m')) == 1:
@@ -47,7 +47,7 @@ else:
         return '0'+str(time.strftime('%m')-1)
     else:
         return str(time.strftime('%m') -1)
-        
+
 I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
 
 Thanks for your help!
@@ -74,7 +74,7 @@ Like this:
  >>>
 
 ```
- 
+
 The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
 
 ## The foolproof way to get ignored.
@@ -86,7 +86,7 @@ Q: Facebook Desktop Notifier
 
 I am a beginner programmer that have never used anything other than what's included in a language.
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
+I am trying to create a desktop application that notifies me anytime I get an update onfacebook.
 How should go about doing this? Thanks in advance.
 
 edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?

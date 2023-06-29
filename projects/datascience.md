@@ -2,12 +2,12 @@
 layout: project
 type: project
 image: img/datascience/ml.png
-title: "Artificial Intillegance and Machine Learning"
-date: 2021-preseent
+title: "Artificial Intelligence and Machine Learning"
+date: 2021-present
 published: true
 labels:
   - Machine learning models
-  - Stastistical models
+  - Statistical models
   - Artificial Neural Networks
   - Regression, & classification models
   - Anamoly detection, Time series analysis & Forecasting

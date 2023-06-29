@@ -6,7 +6,7 @@
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "<center>Welcome to my online portfolio! I'm a Data Scientist with a Ph.D. in triboelectric sensors design and development from the Indian Institute of Technology Bombay. My expertise includes data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and PowerBI, I excel at solving complex problems, extracting valuable insights, and creating impactful data visualizations. I have a proven track record in developing predictive models, regression algorithms, classification techniques, and anomaly detection. I thrive on collaborating with cross-functional teams to deliver innovative, data-driven solutions for real-world challenges. <br>Feel free to explore my portfolio and witness the transformative power of data-driven insights.</center>",
+    "summary": "<center>Welcome to my online portfolio! I'm a Data Scientist with Ph.D. in triboelectric sensors design and development from the Indian Institute of Technology Bombay. My expertise includes data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and PowerBI, I excel at solving complex problems, extracting valuable insights, and creating impactful data visualizations. I have a proven track record in developing predictive models, regression algorithms, classification techniques, and anomaly detection. I thrive on collaborating with cross-functional teams to deliver innovative, data-driven solutions for real-world challenges. <br>Feel free to explore my portfolio and witness the transformative power of data-driven insights.</center>",
    
     "location": { 
       "address": "#506, Siri Dew Drops Apartments", 
@@ -30,8 +30,7 @@
     { "name": "Multidisciplinary engineer" },
     { "name": "Research & Development" },
     { "name": "Modelling & simulations" },
-    { "name": "Data science" },
-    { "name": "Coding"}
+    { "name": "Data science & coding" },
   ],
 
   "skills": [

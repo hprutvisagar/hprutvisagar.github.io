@@ -12,6 +12,22 @@ labels:
 summary: "Using the publically available Nasa turbofan dataset, we have estimated the RUL of an aircraft engine."
 ---
 
+<!--
 <center> <img class="img-fluid" src="../img/datascience/turbojet.png"> </center>
+-->
+<head>
+<style>
+  body {
+  background-image:url("../img/datascience/turbojet.png");
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  /* background-attachment: fixed; */
+  }
+</style>
+</head>
+
+<body>
 
 {% include projects/turbofan.html %}
+
+</body>
