@@ -47,7 +47,14 @@ losses incurred while transmitting the electric power over long cables. I have e
 <img src="../img/savo/wt.png" class="img-fluid">
 
 <p><br><br></p>
-<h3> rTENG optimization on custom built fixture </h3>
+<h3> r-TENG optimization on custom built fixture </h3>
 <img src="../img/savo/lab.png" class="img-fluid">
 
 </center>
+<p><br><br></p>
+<h3> Summary</h3>
+we utilized the triboelectric phenomenon to design and develop a savonius wind turbine
+in an attempt to develop a cost-effective decentralized energy harvester to power (remote)
+conventional sensors. The developed TENG-based savonius windmill could deliver a maximum
+power of 500 μW and had a power conversion efficiency of 0.003 % with several operational
+challenges.

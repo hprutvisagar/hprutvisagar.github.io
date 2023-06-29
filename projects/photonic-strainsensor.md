@@ -22,7 +22,7 @@ the effect of non-uniform strain localization on the optical signal and use that
 
 <b>summary</b>
 
-<p>At the heart of this scientific report, we couple the optical properties of silicon and mechanical strain. Then use this coorelation to extract the strain on the surface using photonic transmission bands (photonic crystal is a unique architecture, which redistributes the optical energy, and allows only specific frequencies to pass. The band transmission is a complex phenomenon, which depends on multiple factors such as input frequency, alternating materials, crystal orientation and so on.. )</p>
+<p>At the heart of this scientific report, we couple the optical properties of silicon and mechanical strain. Then use this coorelation to extract the strain on the surface using photonic transmission bands (photonic crystal is a unique architecture, which redistributes the optical energy, and allows only specific frequencies to pass. The band transmission is a complex phenomenon, which depends on multiple factors such as input frequency, alternating materials, crystal orientation and so on.)</p>
 
 <b>For detailed investigation report, please refer the main article:</b>
 
