@@ -1,7 +1,7 @@
 ---
 layout: project
 type: vibration_sensors
-image: img/vibrationsensor/tunabel_vs.png
+image: img/vibrationsensor/cantilever/tunabel_vs.png
 title: "Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator"
 date: 2022
 published: true
@@ -17,7 +17,7 @@ summary: "Design and development of a tunable vibration sensor for health monito
 
 <p align="justify"> Here, we report a vibration sensor based on a single-electrode mode triboelectric nanogenerator (TENG). The main objective of this study is to develop a vibration sensor (architecture) that can be employed in any application with minor design changes to meet individual objectives. Hence, a cantilever-based vibration system is selected, which offers optimum design control in fine-tuning the sensor to operate in the desired frequency spectrum. The cantilever's proof mass is suspended by isotropic linear elastic material constituting a scalable and tunable cantilever–mass system. The oscillations create contact separation between the triboelectric-active layers (i.e. fluorinated ethylene–propylene copolymer and screen-printed zinc oxide), which develop triboelectric waveforms. This voltage waveform is used for both sensing and powering mechanisms. At resonance, the device produces peak-to-peak voltage, short-circuit current, and power density of 25 V, 10 µA, and 1.38 W m<sup>−2</sup>, respectively. To measure the influence of change in cantilever properties, we varied the number of cantilevers and evaluated the sensor performance. The sensor is reliable with >99% accuracy in a broad frequency range of 0–400 Hz. The sensor exhibits a maximum sensitivity of 14 V g<sup>−1</sup> and can charge a 1 µF capacitor to 2.75 V in &lt; 150 s. The sensor is further tested on a lab-scale vacuum pump with known (induced) faults to estimate the sensor's competence in detecting the machinery faults. Considering the market acceptability, the sensor is developed with established manufacturing techniques such as screen-printing, and laser cutting. This study hopes to bridge the lab-to-market gap for TENG-based (vibration) sensors. </p>
 
-<img src="../img/vibrationsensor/tunabel_vs.png" height=250px width=Auto >
+<img src="../img/vibrationsensor/cantilever/tunabel_vs.png" height=250px width=Auto >
 
 <b>For detailed investigation report, please refer the main article:</b>
 

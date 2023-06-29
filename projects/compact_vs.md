@@ -1,7 +1,7 @@
 ---
 layout: project
 type: vibration_sensors
-image: img/vibrationsensor/compact_vs.png
+image: img/vibrationsensor/compact/compact_vs.png
 title: "Triboelectric effect based self-powered compact vibration sensor for predictive maintenance of industrial machineries"
 date: 2021
 published: true
@@ -19,7 +19,7 @@ summary: "Design and development of a compact vibration sensor to proove the cap
 
 <b> Device schematic</b>
 
-<img src="../img/vibrationsensor/compact_vs.png" height=250px width=Auto >
+<img src="../img/vibrationsensor/compact/compact_vs.png" height=250px width=Auto >
 
 <b> Fabrication methodology</b>
 

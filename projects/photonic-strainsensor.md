@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pc/tr.png
+image: img/pc/concept.jpg
 title: "Transient dynamic distributed strain sensing using photonic crystal waveguides"
 date: 2014
 published: true
@@ -9,7 +9,7 @@ labels:
   - COMSOL Multiphysics
   - Matlab
   - Opto-Mechanical coupling
-  - simulation and experimental correlations
+  - simulation and experiment correlations
 summary: "Aims to extract the mechanical strain using a photonic crystal "
 ---
 
