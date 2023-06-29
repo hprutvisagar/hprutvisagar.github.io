@@ -45,18 +45,18 @@ Here, we have translated the unstructured time domain sensor data into a structu
 
 <h4>EDA</h4>
 
-<img src="../img/datascience/bearing-eda.png" Height=350px width=Auto >
+<img src="../img/datascience/bearing-eda.png" Height=350px width=Auto class="img-fluid" >
 
 <h4>Data preprocessing</h4>
 
-<img src="../img/datascience/data%20preprocessing.png" Height=500px width=Auto >
+<img src="../img/datascience/data%20preprocessing.png" Height=500px width=Auto class="img-fluid" >
 
 <h4>Fault identification and labelling</h4>
 
-<img src="../img/datascience/bearing-fi.png" Height=350px width=Auto >
+<img src="../img/datascience/bearing-fi.png" Height=350px width=Auto class="img-fluid" >
 
 with proper fault identifications, we then create ML model. Here we have chosen random forest classifier to predict the failure. The obtained model has an accuracy of 88%. Its detailed confusion matrix is given below:
 
-<center> <img src="../img/datascience/bearing_cm.png" Height=200px width=Auto > </center>
+<center> <img src="../img/datascience/bearing_cm.png" Height=200px width=Auto class="img-fluid"> </center>
 
 Source: <a href="https://github.com/hprutvisagar/IMX_bearing_dataset.git">hprutvisagar/IMX_bearing_dataset</a>

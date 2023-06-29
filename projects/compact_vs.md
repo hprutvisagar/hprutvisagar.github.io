@@ -19,23 +19,23 @@ summary: "Design and development of a compact vibration sensor to proove the cap
 
 <b> Device schematic</b>
 
-<img src="../img/vibrationsensor/compact/compact_vs.png" height=250px width=Auto >
+<img src="../img/vibrationsensor/compact/compact_vs.png" height=250px width=Auto class="img-fluid" >
 
 <b> Fabrication methodology</b>
 
-<img src="../img/vibrationsensor/compact/fig1.jpg" height=500px width=Auto >
+<img src="../img/vibrationsensor/compact/fig1.jpg" height=500px width=Auto class="img-fluid" >
 
 <b> Prototype testings</b>
 
-<img src="../img/vibrationsensor/compact/expt.png" height=500px width=Auto >
+<img src="../img/vibrationsensor/compact/expt.png" height=500px width=Auto class="img-fluid" >
 
 <b> Working principle and detailed device</b>
 
-<img src="../img/vibrationsensor/compact/fig3.png" height=350px width=Auto >
+<img src="../img/vibrationsensor/compact/fig3.png" height=350px width=Auto class="img-fluid" >
 
 <b> Labscale testing on a 1/8 hp vacuum pump</b>
 
-<img src="../img/vibrationsensor/compact/fig4.png" height=550px width=Auto >
+<img src="../img/vibrationsensor/compact/fig4.png" height=550px width=Auto class="img-fluid" >
 
 <b>For detailed explaination and investigation report, please refer the main article:</b>
 
