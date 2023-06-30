@@ -6,7 +6,9 @@
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "<center>Welcome to my portfolio! I'm a Data Scientist with Ph.D. in triboelectric sensors design and development from the Indian Institute of Technology Bombay. My expertise includes data analysis, machine learning, statistical modeling, and artificial neural networks. Proficient in Python, MATLAB, and PowerBI, I excel at solving complex problems, extracting valuable insights, and creating impactful data visualizations. I have a proven track record in developing predictive models, regression algorithms, classification techniques, and anomaly detection. I thrive on collaborating with cross-functional teams to deliver innovative, data-driven solutions for real-world challenges. <br>Feel free to explore my portfolio and witness the transformative power of data-driven insights.</center>",
+    "summary": "<center> <p> Welcome to my online portfolio! <br> I am <b>Data Scientist</b> at Halliburton who Holds a Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b>. I posses rich expertise in the fascinating field of Tribo-electric Nanogenerators (TENG).</p> 
+    <p> Along with a wealth of Research & Development activities, I also bring forth over 6 years of professional experience. My diverse skill set encompasses Data Science, Mechanical Engineering, Electrical and Electronics, as well as proficient coding abilities enabling me to tackle intricate challenges with finesse. </p> 
+    <p>Feel free to explore my portfolio. If my skills have piqued your interest,<br> let's connect, collaborate and create something remarkable together.</p></center>",
    
     "location": { 
       "address": "#506, Siri Dew Drops Apartments", 
@@ -36,28 +38,25 @@
   "skills": [
 
     {
-      "name": "Technologies",
-      "keywords": [ "Machine learning models", "", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
+      "name": "Research and Development",
+      "keywords": [ "Rapid Prototyping", "Scanning Electron Microscopy","Atomic Force Microscopy", "Vacuum systems like thermal evaporator & plasming ashing", "Screen printing", "Analog circuits designing","Instrumentations","All workshop and machine shop tools","wet and electronic table experimentations" ]
     },
-    {
-      "name": "Experimentations",
-      "keywords": [ "Rapid Prototyping", "Lithography", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
-    },
+
     {
       "name": "Data Science",
       "keywords": [ "Python","AWS sagemaker & canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","numpy","Git/GitHub"]
     },
     {
       "name": "Scripting languages",
-      "keywords": [ "Matlab","Mathematica","LAMMPS","C++","Arduino" ]
+      "keywords": [ "Matlab","Mathematica","C++" ]
     },
     {
-      "name": "3D modelling tools",
-      "keywords": ["Creo", "Solidworks","AutoCAD", "Catia"]
+      "name": "3D modeling tools",
+      "keywords": ["Pro-E & Creo", "Solidworks","AutoCAD", "Catia"]
     },
     {
       "name": "Simulation tools",
-      "keywords": ["COMSOL Multiphysics","Ansys","Ansa","LS-Dyna","LT-spice","Hypermesh"]
+      "keywords": ["COMSOL Multiphysics","Ansys","Ansa","LS-Dyna","LT-spice","Hypermesh","LAMMPS"]
     }
     
   ],
@@ -94,7 +93,7 @@
       "website": "",
       "startDate": "2021",
       "endDate": "Present",
-      "summary": "Data Science Services group",
+      "summary": "Executive in Data Science Services group",
       "highlights": [
         "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction)",
         "Designing and optimizing High level architecture for ML model development, deployment and consumption",
@@ -109,11 +108,12 @@
       "position": "Senior Structural Analyst (consulting)",
       "startDate": "2019",
       "endDate": "2021",
-      "summary": "Translating a designers idea into an engineered product",
+      "summary": "Translated the designers idea into an engineered product",
       "highlights": [
         "Majorly contributed to the designing of small-scale wind turbine (Zeintein)",
         "Understanding the mechanism and their kinetics",
-        "Translating rough sketches into CAD models for engineering analysis "
+        "Translating rough sketches into CAD models for engineering analysis ",
+        "Complete ownership of small scale wind turbines"
       ]
     },
 
@@ -122,11 +122,11 @@
       "position": "Consulting Mechanical Engineer",
       "startDate": "2019",
       "endDate": "2020",
-      "summary": "Here i mojorly performed various engineering analysis for a leg prosthetic",
+      "summary": "Technical analysis for a leg prosthetic",
       "highlights": [
         "Created pivotal documents for fund raising and outreach activities",
-        "Performed GAIT analysis, static, dynamic and failure analysis for design optimizations",
-        "Actively involved in performing static analysis, kinetic analysis and mechanism optimization for the leg prosthetic by utilizing DFx concepts (manufacturability, assembly and enduse)"
+        "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis)",
+        "Actively involved in design optimization by utilizing DFx concepts (manufacturability, assembly and end-use)"
       ]
     },
     
@@ -135,8 +135,9 @@
       "position": "Mechanical (CAD) Engineer",
       "startDate": "2011",
       "endDate": "2013",
-      "summary": "Here, my majority of the responsibilities included in the following activities ",
+      "summary": "Here, my majority of the responsibilities were: ",
       "highlights": [
+        "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments)",
         "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses",
         "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly"
       ]

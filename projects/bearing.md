@@ -2,12 +2,11 @@
 layout: project
 type: datascience_project
 image: img/datascience/bearing.jpg
-title: "Health monitoring of bearings using sensor data"
+title: "Failure prediction of IMX bearing"
 date: 2021
 published: true
 labels:
-  - Time series analysis
-  - stastical modeling
+  - Statistical analysis
   - RUL prediction
   - condition/health monitoring
   - Time domain analysis
