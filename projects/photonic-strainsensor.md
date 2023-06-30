@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pc/concept.jpg
+image: img/pc/concept.png
 title: "Transient dynamic distributed strain sensing using photonic crystal waveguides"
 date: 2014
 published: true

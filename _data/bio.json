@@ -19,9 +19,9 @@
 
 
     "profiles": [
+      { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "googlescholar", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" },
       { "network": "researchgate", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
-      { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" }
     ]
   },
@@ -34,13 +34,18 @@
   ],
 
   "skills": [
+
+    {
+      "name": "Technologies",
+      "keywords": [ "Machine learning models", "", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
+    },
     {
       "name": "Experimentations",
       "keywords": [ "Rapid Prototyping", "Lithography", "Metrological measurements like SEM & AFM", "Vacuum systems", "Screen printing", "Analog circuits" ]
     },
     {
       "name": "Data Science",
-      "keywords": [ "Python","AWS sagemaker","AWS canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","numpy","Git/GitHub"]
+      "keywords": [ "Python","AWS sagemaker & canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","numpy","Git/GitHub"]
     },
     {
       "name": "Scripting languages",
