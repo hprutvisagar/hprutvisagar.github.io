@@ -11,6 +11,6 @@ labels:
 summary: "predicting the quality of the Portuguese red wine using its chemical properties"
 ---
 
-<img src="../img/datascience/wq.jpg" class="img-fluid">
+<img src="../img/datascience/wq.png" class="img-fluid">
 
 {% include projects/wine.html %}
