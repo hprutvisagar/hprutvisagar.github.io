@@ -310,6 +310,31 @@
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
+
+  "certificates": [
+    {
+      "name": "NLP - Natural Language Processing with Python",
+      "date": "2022",
+      "awarder": "Udemy",
+      "certificate_id": "<a href='https://www.udemy.com/certificate/UC-e127fc79-def3-49ad-beac-4534619aaf04/'> ude.my/UC-e127fc79-def3-49ad-beac-4534619aaf04 </a>"
+    },
+
+    {
+      "name": "Python for Time Series Data Analysis",
+      "date": "2022",
+      "awarder": "Udemy",
+      "certificate_id": "<a href='https://www.udemy.com/certificate/UC-cda41e68-2391-462f-a6e2-416c99dbe01d/'> UC-cda41e68-2391-462f-a6e2-416c99dbe01d </a>"
+    },
+
+    {
+      "name": "Python for Data Science and Machine learning bootcamp",
+      "date": "2021",
+      "awarder": "Udemy",
+      "certificate_id": "<a href='https://www.udemy.com/certificate/UC-de6f4fd2-f47e-468c-8de7-ae172ff05fb2/'> UC-de6f4fd2-f47e-468c-8de7-ae172ff05fb2 </a>"
+    }
+
+  ],
+
   "references": [
     {
       "name": "Available upon request"
