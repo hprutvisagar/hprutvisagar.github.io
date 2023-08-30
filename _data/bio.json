@@ -312,6 +312,14 @@
   ],
 
   "certificates": [
+
+    {
+      "name": "Generative AI fundamentals",
+      "date": "2023",
+      "awarder": "Databricks",
+      "certificate_id": "<a href='https://credentials.databricks.com/1194e930-ffcb-4239-b2ed-0f18c6242e31'> 80855880 </a>"
+    },
+    
     {
       "name": "NLP - Natural Language Processing with Python",
       "date": "2022",
