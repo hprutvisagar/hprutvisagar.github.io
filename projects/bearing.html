@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Failure prediction of IMX bearing | Dr. Sagar H P | ePortfolio">
+    <meta name="description" content="">
+    <meta name="image" content="img/profilepic.JPG">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dr. Sagar H P | ePortfolio">
+    <meta property="og:url" content="https://hprutvisagar.github.io/projects/bearing.html">
+    <meta property="og:title" content="Failure prediction of IMX bearing | Dr. Sagar H P | ePortfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="img/profilepic.JPG">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Failure prediction of IMX bearing | Dr. Sagar H P | ePortfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Dr. Sagar H P</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <!-- <a class="nav-link" href="/#essays">Blog</a> -->
+        <a class="nav-link" href="/resume.html">Resume</a>
+        <a class="nav-link" href="/resources/resume.pdf">Resume(PDF)</a>
+        
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Failure prediction of IMX bearing</h1>
+ <h3> Overview </h3>
+
+<p>This IMX_bearing dataset is an extensive data set comprising of unstructured data from run-to-failure experiments of a ball bearing. This data has readings from 4 different sensors. The failure modes are recorded and attributed to each experiment. My objective is to use this sensor readings and predict the failure modes.</p>
+
+<p>Here, the failure prediction can be accomplished in two ways. (1) A binary classification method, which can predict weather or not failure has occured or not &amp; (2) A multiclass classification predicting the failure mode. Considering the obvious advantage of the second method, I have built ML model for multiclass failure mode prediction.</p>
+
+<p>Before the actual datascience workflow, to better understand the problem statement and the physical significance of the data, let us first have a look at how the data is captured.</p>
+
+<h3> Experimental setup </h3>
+<p>Four bearings were installed on a shaft. The rotation speed was kept constant at 2000 RPM by an AC
+motor coupled to the shaft via rub belts. A radial load of 6000 lbs is applied onto the shaft and bearing
+by a spring mechanism. All bearings are force lubricated. </p>
+
+<p>Rexnord ZA-2115 double row bearings were installed on the shaft as shown in experimental setup. PCB 353B33
+High Sensitivity Quartz ICP accelerometers were installed on the bearing housing (two accelerometers
+for each bearing [x- and y-axes] for data set 1, one accelerometer for each bearing for data sets 2 and 3).
+Sensor placement is also shown in schematic. All failures occurred after exceeding designed life time of
+the bearing which is more than 100 million revolutions.</p>
+
+<div class="text-center p-4">
+  <img width="350px" height="350px" src="../img/datascience/exp_setup.png" class="img-thumbnail" />
+  <img width="350px" height="350px" src="../img/datascience/exp_schematic.png" class="img-thumbnail" />
+  <img width="350px" height="350px" src="../img/datascience/bearing_anatomy.png" class="img-thumbnail" />
+</div>
+
+<h2> Data science workflow </h2>
+
+<p>Here, we have translated the unstructured time domain sensor data into a structured data by extracting the statistical information. We then label the time stamped stastical data with corresponding failure modes, and then balance the data to create a single dataset for further processing.</p>
+
+<h4>EDA</h4>
+
+<p><img src="../img/datascience/bearing-eda.png" height="350px" width="Auto" class="img-fluid" /></p>
+
+<h4>Data preprocessing</h4>
+
+<p><img src="../img/datascience/data%20preprocessing.png" height="500px" width="Auto" class="img-fluid" /></p>
+
+<h4>Fault identification and labelling</h4>
+
+<p><img src="../img/datascience/bearing-fi.png" height="350px" width="Auto" class="img-fluid" /></p>
+
+<p>with proper fault identifications, we then create ML model. Here we have chosen random forest classifier to predict the failure. The obtained model has an accuracy of 88%. Its detailed confusion matrix is given below:</p>
+
+<center> <img src="../img/datascience/bearing_cm.png" height="200px" width="Auto" class="img-fluid" /> </center>
+
+<p>Source: <a href="https://github.com/hprutvisagar/IMX_bearing_dataset.git">hprutvisagar/IMX_bearing_dataset</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+
+    <!-- <div class="ms-auto">      
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>        
+      </ul>
+    </div> -->
+
+    <div class="col text-center"> 
+      <div class="navbar-brand"> <a href="mailto:sagarhp3589@gmail.com"> sagarhp3589@gmail.com </a> </div>
+    </div> 
+
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
