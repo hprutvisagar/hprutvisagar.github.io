@@ -151,7 +151,8 @@
      "authors":"<b>Sagar Hosangadi Prutvi</b>, Mallikarjuna Korrapati, and Dipti Gupta<sup>*</sup>",
      "journal":"<i>Measurement Science and Technology</i> 33 (7), 075115 (2022)",
      "date" : "2022",
-     "DOI":"<a href='/resources/sagar - cantilever based - vs2.pdf'> https://doi.org/10.1088/1361-6501/ac5b2b </a>"
+     "DOI":"<a class="nav-link" href=" {{ '/resources/sagar - cantilever based - vs2.pdf' | prepend: site.baseurl }}"> https://doi.org/10.1088/1361-6501/ac5b2b </a>"
+     
    },
 
    {
