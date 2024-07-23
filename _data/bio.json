@@ -4,19 +4,19 @@
     "label": "Data Scientist | Research Engineer",
     "picture": "img/profilepic.JPG",
     "email": "sagarhp3589@gmail.com",
-    "phone": "(+91) 8660-770-698",
+    "phone": "(+49) 15560-218813",
     "website": "https://hprutvisagar.github.io",
     "summary": "<center> <p> Welcome to my online portfolio! <br> I am currently working as a <b> PostDoctoral researcher</b> at the unversity of Freiburg. I Hold a Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b>. I bring rich expertise in the fascinating field of Tribo-electric Nanogenerators (TENG) and electromechanical devices.</p> 
     <p> Along with a wealth of Research & Development activities, I also have over 6 years of professional experience. My diverse skill set encompasses Data Science, Mechanical, Electrical and Electronics engineering, as well as proficient coding abilities. These are enabling me to tackle intricate multidisciplinary challenges with finesse. </p> 
     <p>Feel free to explore my portfolio. If any of my skills or expertise have piqued your interest,<br> let's connect, collaborate and create something remarkable together.</p> </center>",
    
     "location": { 
-      "address": "#506, Siri Dew Drops Apartments", 
-      "address2": "Ramanjaneya Nagara, Arehalli",
-      "postalCode": "560061", 
-      "city": "Bengaluru", 
-      "countryCode": "(India)", 
-      "region": "Karnataka" 
+      "address": "Sundgaualle 58", 
+      "address2": "Wohnung Nr: 58-00-04",
+      "postalCode": "79110", 
+      "city": "Freiburg", 
+      "countryCode": "Germany", 
+      // "region": "Karnataka" 
       },
 
 
@@ -96,26 +96,23 @@
   ],
   "work": [
     {
-      "company": "SwissRE",
-      "position": "Advanced Data Analytics Specialist",
+      "company": "Swiss Re",
+      "position": "Advanced Analytics Specialist",
       "website": "",
-      "startDate": "2023",
-      "endDate": "2024",
+      "startDate": "Dec, 2023",
+      "endDate": "Apr, 2024",
       "summary": "Worked as an AVP for process improvements using Data science initiatives",
       "highlights": [
-        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction)",
-        "Designing and optimizing High level architecture for ML model development, deployment and consumption",
-        "Supporting company outreach activities by preparing technical abstracts for conferences",
-        "Translating business needs into Data Science problem statements",
-        "Submitted a patents to utilize triboelectric sensors for monitoring drilling operations (currently under review)"
+        "Generating analytical & data science solutions to enhance processes and guide business decisions.",
+        "Designed and developed an end-to-end client ranking solution to automate the auditing process."
       ]
     },
     {
       "company": "Halliburton",
       "position": "Data Scientist",
       "website": "",
-      "startDate": "2021",
-      "endDate": "Present",
+      "startDate": "June, 2021",
+      "endDate": "Aug, 2023",
       "summary": "Executive in Data Science Services group",
       "highlights": [
         "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction)",
@@ -129,8 +126,8 @@
     {
       "company": "Gorgonian Technologies",
       "position": "Senior Structural Analyst (consulting)",
-      "startDate": "2019",
-      "endDate": "2021",
+      "startDate": "June, 2019",
+      "endDate": "June, 2021",
       "summary": "Translated the designers idea into an engineered product",
       "highlights": [
         "Majorly contributed to the designing of small-scale wind turbine (Zeintein)",
@@ -143,8 +140,8 @@
     {
       "company": "Aumeesh Technologies",
       "position": "Consulting Mechanical Engineer",
-      "startDate": "2019",
-      "endDate": "2020",
+      "startDate": "Feb, 2019",
+      "endDate": "Feb, 2020",
       "summary": "Technical analysis for a leg prosthetic",
       "highlights": [
         "Created pivotal documents for fund raising and outreach activities",
@@ -156,8 +153,8 @@
     {
       "company": "HCL technologies",
       "position": "Mechanical (CAD) Engineer",
-      "startDate": "2011",
-      "endDate": "2013",
+      "startDate": "Sept, 2011",
+      "endDate": "Aug 2013",
       "summary": "Here, my majority of the responsibilities were: ",
       "highlights": [
         "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments)",
