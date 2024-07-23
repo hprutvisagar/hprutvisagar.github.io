@@ -6,7 +6,7 @@
     "email": "sagarhp3589@gmail.com",
     "phone": "(+91) 8660-770-698",
     "website": "https://hprutvisagar.github.io",
-    "summary": "<center> <p> Welcome to my online portfolio! <br> I am a <b> PostDoctoral researcher</b> at the unversity of Freiburg. I Holds a Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b>. I bring rich expertise in the fascinating field of Tribo-electric Nanogenerators (TENG) and electromechanical devices.</p> 
+    "summary": "<center> <p> Welcome to my online portfolio! <br> I am currently working as a <b> PostDoctoral researcher</b> at the unversity of Freiburg. I Hold a Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b>. I bring rich expertise in the fascinating field of Tribo-electric Nanogenerators (TENG) and electromechanical devices.</p> 
     <p> Along with a wealth of Research & Development activities, I also have over 6 years of professional experience. My diverse skill set encompasses Data Science, Mechanical, Electrical and Electronics engineering, as well as proficient coding abilities. These are enabling me to tackle intricate multidisciplinary challenges with finesse. </p> 
     <p>Feel free to explore my portfolio. If any of my skills or expertise have piqued your interest,<br> let's connect, collaborate and create something remarkable together.</p> </center>",
    
@@ -62,6 +62,14 @@
   ],
   "education": [
     {
+      "institution": "Universität Freiburg",
+      "area": "Frequency tunable triboelectric energy harvester",
+      "studyType": "Post Doctorate Researcher",
+      "startDate": "2024",
+      "endDate": "Present",
+      "finalgrade": "N.A."
+    },
+    {
       "institution": "Indian Institute of Technology Bombay (India)",
       "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
       "studyType": "Ph.D.",
@@ -87,6 +95,21 @@
     }
   ],
   "work": [
+    {
+      "company": "SwissRE",
+      "position": "Advanced Data Analytics Specialist",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Worked as an AVP for process improvements using Data science initiatives",
+      "highlights": [
+        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction)",
+        "Designing and optimizing High level architecture for ML model development, deployment and consumption",
+        "Supporting company outreach activities by preparing technical abstracts for conferences",
+        "Translating business needs into Data Science problem statements",
+        "Submitted a patents to utilize triboelectric sensors for monitoring drilling operations (currently under review)"
+      ]
+    },
     {
       "company": "Halliburton",
       "position": "Data Scientist",
