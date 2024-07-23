@@ -10,10 +10,23 @@
         <p class="lead">{{ site.data.bio.basics.summary }}</p>
         <hr class="my-4">
         <p class="lead m-0">
-          <b> Interests: </b>
-          {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
+
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-auto title">
+                <b> Interests </b>
+              </div>
+          
+              <div class="col">
+                <div class="interests-container">
+                  {% for interest in site.data.bio.basics.interests %}
+                    <span class="interest-tag">{{ interest.name }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+
         </p>
         <hr class="my-4">
         <div class="row">

@@ -84,8 +84,8 @@ layout: home
           <div class="row mb-3">
             <div class="col-9">
               <p class="m-0"><b>{{ entry.institution }}</b></p>
-              <p class="m-0">{{ entry.studyType }}, {{ entry.area }}</p>
-              <p class="m-0">Final Grade: <b> {{ entry.finalgrade }} </b></p>
+              <p class="m-0"><b>{{ entry.studyType }}</b>, {{ entry.area }}</p>
+              <p class="m-0">Final Grade: {{ entry.finalgrade }} </p>
               {% if entry.courses %}
                 <ul>
                   {% for course in entry.courses %}

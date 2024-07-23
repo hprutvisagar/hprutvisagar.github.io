@@ -1,14 +1,15 @@
 {
   "basics": {
-    "name": "Dr. Sagar H P",
+    "name": "Dr. Sagar Hosangadi Prutvi",
+    "nickname": "Dr. Sagar H P",
     "label": "Data Scientist | Research Engineer",
     "picture": "img/profilepic.JPG",
     "email": "sagarhp3589@gmail.com",
     "phone": "(+49) 15560-218813",
     "website": "https://hprutvisagar.github.io",
     "summary": "<center> <p> Welcome to my online portfolio! <br> I am currently working as a <b> PostDoctoral researcher</b> at the unversity of Freiburg. I Hold a Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b>. I bring rich expertise in the fascinating field of Tribo-electric Nanogenerators (TENG) and electromechanical devices.</p> 
-    <p> Along with a wealth of Research & Development activities, I also have over 6 years of professional experience. My diverse skill set encompasses Data Science, Mechanical, Electrical and Electronics engineering, as well as proficient coding abilities. These are enabling me to tackle intricate multidisciplinary challenges with finesse. </p> 
-    <p>Feel free to explore my portfolio. If any of my skills or expertise have piqued your interest,<br> let's connect, collaborate and create something remarkable together.</p> </center>",
+    <p> Along with a wealth of Research & Development activities, I have more than 6 years of professional experience. My diverse skill set encompass Data Science, Mechanical, Electrical and Electronics engineering, as well as proficient coding abilities. These enable me to tackle intricate multidisciplinary challenges with finesse. </p> 
+    <p>Feel free to explore my portfolio. If any of my skills, projects or expertise have piqued your interest,<br> let's connect, collaborate and create something remarkable together.</p> </center>",
    
     "location": { 
       "address": "Sundgaualle 58", 
@@ -19,21 +20,22 @@
       // "region": "Karnataka" 
       },
 
-
     "profiles": [
       { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
       { "network": "googlescholar", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" },
       { "network": "researchgate", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
       { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" }
-    ]
+    ],
+
+    "interests": [
+      { "name": "Multi disciplinary engineering" },
+      { "name": "Research & Development" },
+      { "name": "Modeling & simulations" },
+      { "name": "Data science & coding" }
+    ],
   },
 
-  "interests": [
-    { "name": "Multidisciplinary engineer" },
-    { "name": "Research & Development" },
-    { "name": "Modelling & simulations" },
-    { "name": "Data science & coding" }
-  ],
+  
 
   "skills": [
 
@@ -62,7 +64,7 @@
   ],
   "education": [
     {
-      "institution": "Universität Freiburg",
+      "institution": "Universität Freiburg (Germany)",
       "area": "Frequency tunable triboelectric energy harvester",
       "studyType": "Post Doctorate Researcher",
       "startDate": "2024",
@@ -72,7 +74,7 @@
     {
       "institution": "Indian Institute of Technology Bombay (India)",
       "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
-      "studyType": "Ph.D.",
+      "studyType": "Ph.D. Research Scholar",
       "startDate": "2016",
       "endDate": "2022",
       "finalgrade": "8.6 GPA"
@@ -80,7 +82,7 @@
     {
       "institution": "National Institute of Technology Karnataka, Surathkal (India)",
       "area": "Nanotechnology",
-      "studyType": "M.Tech",
+      "studyType": "M.Tech.",
       "startDate": "2013",
       "endDate": "2015",
       "finalgrade": "9.5 GPA"
@@ -88,7 +90,7 @@
     {
       "institution": "Dr. Ambedkar Institute of Technology Bengaluru (India)",
       "area": "Mechanical Engineering",
-      "studyType": "B.Tech",
+      "studyType": "B.E.",
       "startDate": "2007",
       "endDate": "2011",
       "finalgrade": "71.8 %"
@@ -97,11 +99,11 @@
   "work": [
     {
       "company": "Swiss Re",
-      "position": "Advanced Analytics Specialist",
+      "position": "Data & Analytics Specialist",
       "website": "",
       "startDate": "Dec, 2023",
       "endDate": "Apr, 2024",
-      "summary": "Worked as an AVP for process improvements using Data science initiatives",
+      "summary": "Worked as an <b> A.V.P. </b> to implement Data science initiatives for process improvements",
       "highlights": [
         "Generating analytical & data science solutions to enhance processes and guide business decisions.",
         "Designed and developed an end-to-end client ranking solution to automate the auditing process."
@@ -111,7 +113,7 @@
       "company": "Halliburton",
       "position": "Data Scientist",
       "website": "",
-      "startDate": "June, 2021",
+      "startDate": "Jun, 2021",
       "endDate": "Aug, 2023",
       "summary": "Executive in Data Science Services group",
       "highlights": [
@@ -126,8 +128,8 @@
     {
       "company": "Gorgonian Technologies",
       "position": "Senior Structural Analyst (consulting)",
-      "startDate": "June, 2019",
-      "endDate": "June, 2021",
+      "startDate": "Jun, 2019",
+      "endDate": "Jun, 2021",
       "summary": "Translated the designers idea into an engineered product",
       "highlights": [
         "Majorly contributed to the designing of small-scale wind turbine (Zeintein)",
@@ -153,8 +155,8 @@
     {
       "company": "HCL technologies",
       "position": "Mechanical (CAD) Engineer",
-      "startDate": "Sept, 2011",
-      "endDate": "Aug 2013",
+      "startDate": "Sep, 2011",
+      "endDate": "Aug, 2013",
       "summary": "Here, my majority of the responsibilities were: ",
       "highlights": [
         "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments)",
