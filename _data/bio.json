@@ -77,7 +77,7 @@
       "studyType": "Ph.D. Research Scholar",
       "startDate": "2016",
       "endDate": "2022",
-      "finalgrade": "8.6 GPA"
+      "finalgrade": "8.6 CGPA"
     },
     {
       "institution": "National Institute of Technology Karnataka, Surathkal (India)",
@@ -85,7 +85,7 @@
       "studyType": "M.Tech.",
       "startDate": "2013",
       "endDate": "2015",
-      "finalgrade": "9.5 GPA"
+      "finalgrade": "9.5 CGPA"
     },
     {
       "institution": "Dr. Ambedkar Institute of Technology Bengaluru (India)",
@@ -117,10 +117,10 @@
       "endDate": "Aug, 2023",
       "summary": "Executive in Data Science Services group",
       "highlights": [
-        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction)",
-        "Designing and optimizing High level architecture for ML model development, deployment and consumption",
-        "Supporting company outreach activities by preparing technical abstracts for conferences",
-        "Translating business needs into Data Science problem statements",
+        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction).",
+        "Designing and optimizing High level architecture for ML model development, deployment and consumption.",
+        "Supporting company outreach activities by preparing technical abstracts for conferences.",
+        "Translating business needs into Data Science problem statements.",
       ]
     },
 
@@ -131,10 +131,10 @@
       "endDate": "Jun, 2021",
       "summary": "Translated the designers idea into an engineered product",
       "highlights": [
-        "Majorly contributed to the designing of small-scale wind turbine (Zeintein)",
-        "Understanding the mechanism and their kinetics",
-        "Translating rough sketches into CAD models for engineering analysis ",
-        "Complete ownership of small scale wind turbines"
+        "Majorly contributed to the designing of small-scale wind turbine (Zeintein).",
+        "Understanding the mechanism and their kinetics.",
+        "Translating rough sketches into CAD models for engineering analysis.",
+        "Complete ownership of small scale wind turbines."
       ]
     },
 
@@ -145,9 +145,9 @@
       "endDate": "Feb, 2020",
       "summary": "Technical analysis for a leg prosthetic",
       "highlights": [
-        "Created pivotal documents for fund raising and outreach activities",
-        "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis)",
-        "Actively involved in design optimization by utilizing DFx concepts (manufacturability, assembly and end-use)"
+        "Created pivotal documents for fund raising and outreach activities.",
+        "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis).",
+        "Actively involved in design optimization by utilizing DFx concepts (manufacturability, assembly and end-use)."
       ]
     },
     
@@ -158,9 +158,9 @@
       "endDate": "Aug, 2013",
       "summary": "Here, my majority of the responsibilities were: ",
       "highlights": [
-        "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments)",
-        "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses",
-        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly"
+        "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments).",
+        "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses.",
+        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly."
       ]
     }
     
