@@ -13,7 +13,7 @@
    
     "location": { 
       "address": "Sundgaualle 58", 
-      "address2": "Wohnung Nr: 58-00-04",
+      //"address2": "Wohnung Nr: 58-00-04",
       "postalCode": "79110", 
       "city": "Freiburg", 
       "countryCode": "Germany", 
@@ -35,33 +35,30 @@
     ],
   },
 
-  
-
   "skills": [
 
     {
-      "name": "Research and Development",
-      "keywords": [ "Rapid Prototyping", "Scanning Electron Microscopy","Atomic Force Microscopy", "Vacuum systems like thermal evaporator & plasming ashing", "Screen printing", "Analog circuits designing","Instrumentations","All workshop and machine shop tools","wet and electronic table experimentations" ]
+      "name": "Data Science & Machine Learning",
+      "keywords": [
+        {"Python": ["Pandas", "Numpy","Seaborn","Scikit-learn", "NLTK", "Spacy","Keras","Tensorflow","Mlflow","Plotly","Orange"]},
+        {"Big Data": ["PowerBI", "PySpark", "SQL"]},
+        {"Cloud": ["AWS (SageMaker & Canvas)", "Palantir Foundry"]}
+        ],
     },
 
     {
-      "name": "Data Science",
-      "keywords": [ "Python","AWS sagemaker & canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","numpy","Git/GitHub"]
-    },
-    {
-      "name": "Scripting languages",
-      "keywords": [ "Matlab","Mathematica","C++" ]
-    },
-    {
-      "name": "3D modeling tools",
-      "keywords": ["Pro-E & Creo", "Solidworks","AutoCAD", "Catia"]
-    },
-    {
-      "name": "Simulation tools",
-      "keywords": ["COMSOL Multiphysics","Ansys","Ansa","LS-Dyna","LT-spice","Hypermesh","LAMMPS"]
+      "name": "Design, Simulation & Analysis",
+      "keywords": [
+        {"Simulations": [" COMSOL Multiphysics", "Ansys"]},
+        {"Analysis": ["MATLAB", "Mathematica"]},
+        {"CAD Tools": ["Solidworks", "Creo (Pro-E)", "AutoCAD"]},
+        {"Technologies": ["Rapid-Prototyping", "SEM", "AFM", "ScreenPrinting", "Thermal-Evaporator", "Plasma & Vacuum systems"]},
+        {"Electronics": ["Analog Circuits", "Arduino", "Instrumentation"]},
+        ]
     }
     
   ],
+
   "education": [
     {
       "institution": "Universität Freiburg (Germany)",
