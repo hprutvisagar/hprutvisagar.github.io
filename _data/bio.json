@@ -1,85 +1,306 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Dr. Sagar Hosangadi Prutvi",
+    "nickname": "Dr. Sagar H P",
+    "label": "Data Scientist | Research Engineer",
+    "picture": "img/profilepic.JPG",
+    "email": "sagarhp3589@gmail.com",
+    "phone": "(+49) 15560-218813",
+    "website": "https://hprutvisagar.github.io",
+    "summary": "<center> <p> Welcome to my online portfolio! <br> I am currently a <b> Post-Doctoral researcher</b> at the Universität Freiburg. <br> I Hold a Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b> and bring rich expertise in the fascinating field of <b>Tribo-electric Nanogenerators (TENG) and electromechanical devices.</b></p> 
+    <p> Along with a wealth of Research & Development activities, I have 7 years of professional experience. My diverse skill set encompass <b>Data Science, Mechanical, Electrical and Electronics engineering </b>, as well as proficient coding abilities. These enable me to tackle intricate multidisciplinary challenges with finesse. </p> 
+    <p>Explore my portfolio to see my work in action. If any of my skills, projects or expertise resonate with you, <br> let's connect, collaborate and create something remarkable together.</p> </center>",
+   
+    "location": { 
+      "address": "Sundgaualle 58", 
+      "address2": "Wohnung Nr: 58-00-04",
+      "postalCode": "79110", 
+      "city": "Freiburg", 
+      "countryCode": "Germany", 
+      // "region": "Karnataka" 
+      },
+
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
-    ]
+      { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
+      { "network": "googlescholar", "username": "Sagar H P", "url": "https://scholar.google.com/citations?user=Ag4YrsQAAAAJ&hl=en" },
+      { "network": "researchgate", "username": "Sagar H P", "url": "https://www.researchgate.net/profile/Sagar-Hp" },
+      { "network": "linkedin", "username": "Dr. Sagar H P", "url": "https://www.linkedin.com/in/hpsagar/" }
+    ],
+
+    "interests": [
+      { "name": "Multi disciplinary engineering" },
+      { "name": "Research & Development" },
+      { "name": "Modeling & simulations" },
+      { "name": "Data science & coding" }
+    ],
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
+
+  
+
   "skills": [
+
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Research and Development",
+      "keywords": [ "Rapid Prototyping", "Scanning Electron Microscopy","Atomic Force Microscopy", "Vacuum systems like thermal evaporator & plasming ashing", "Screen printing", "Analog circuits designing","Instrumentations","All workshop and machine shop tools","wet and electronic table experimentations" ]
+    },
+
+    {
+      "name": "Data Science",
+      "keywords": [ "Python","AWS sagemaker & canvas","Orange","Keras","SciKit learn", "Pandas","Seaborn","numpy","Git/GitHub"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Scripting languages",
+      "keywords": [ "Matlab","Mathematica","C++" ]
+    },
+    {
+      "name": "3D modeling tools",
+      "keywords": ["Pro-E & Creo", "Solidworks","AutoCAD", "Catia"]
+    },
+    {
+      "name": "Simulation tools",
+      "keywords": ["COMSOL Multiphysics","Ansys","Ansa","LS-Dyna","LT-spice","Hypermesh","LAMMPS"]
     }
+    
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Universität Freiburg (Germany)",
+      "area": "Frequency tunable triboelectric energy harvester",
+      "studyType": "Post Doctorate Researcher",
+      "startDate": "2024",
       "endDate": "Present",
-      "courses": [
-      ]
+      "finalgrade": "N.A."
+    },
+    {
+      "institution": "Indian Institute of Technology Bombay (India)",
+      "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
+      "studyType": "Ph.D. Research Scholar",
+      "startDate": "2016",
+      "endDate": "2022",
+      "finalgrade": "8.6 CGPA"
+    },
+    {
+      "institution": "National Institute of Technology Karnataka, Surathkal (India)",
+      "area": "Nanotechnology",
+      "studyType": "M.Tech.",
+      "startDate": "2013",
+      "endDate": "2015",
+      "finalgrade": "9.5 CGPA"
+    },
+    {
+      "institution": "Dr. Ambedkar Institute of Technology Bengaluru (India)",
+      "area": "Mechanical Engineering",
+      "studyType": "B.E.",
+      "startDate": "2007",
+      "endDate": "2011",
+      "finalgrade": "71.8 %"
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Swiss Re",
+      "position": "Data & Analytics Specialist",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "Dec, 2023",
+      "endDate": "Apr, 2024",
+      "summary": "Worked as an <b> A.V.P. </b> to implement Data science initiatives for process improvements",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Generating analytical & data science solutions to enhance processes and guide business decisions.",
+        "Designed and developed an end-to-end client ranking solution to automate the auditing process."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Halliburton",
+      "position": "Data Scientist",
+      "website": "",
+      "startDate": "Jun, 2021",
+      "endDate": "Aug, 2023",
+      "summary": "Executive in Data Science Services group",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction).",
+        "Designing and optimizing High level architecture for ML model development, deployment and consumption.",
+        "Supporting company outreach activities by preparing technical abstracts for conferences.",
+        "Translating business needs into Data Science problem statements.",
+      ]
+    },
+
+    {
+      "company": "Gorgonian Technologies",
+      "position": "Senior Structural Analyst (consulting)",
+      "startDate": "Jun, 2019",
+      "endDate": "Jun, 2021",
+      "summary": "Translated the designers idea into an engineered product",
+      "highlights": [
+        "Majorly contributed to the designing of small-scale wind turbine (Zeintein).",
+        "Understanding the mechanism and their kinetics.",
+        "Translating rough sketches into CAD models for engineering analysis.",
+        "Complete ownership of small scale wind turbines."
+      ]
+    },
+
+    {
+      "company": "Aumeesh Technologies",
+      "position": "Consulting Mechanical Engineer",
+      "startDate": "Feb, 2019",
+      "endDate": "Feb, 2020",
+      "summary": "Technical analysis for a leg prosthetic",
+      "highlights": [
+        "Created pivotal documents for fund raising and outreach activities.",
+        "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis).",
+        "Actively involved in design optimization by utilizing DFx concepts (manufacturability, assembly and end-use)."
+      ]
+    },
+    
+    {
+      "company": "HCL technologies",
+      "position": "Mechanical (CAD) Engineer",
+      "startDate": "Sep, 2011",
+      "endDate": "Aug, 2013",
+      "summary": "Here, my majority of the responsibilities were: ",
+      "highlights": [
+        "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments).",
+        "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses.",
+        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly."
       ]
     }
+    
   ],
+
+  "main_pubs": [
+   {
+     "title":"Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator",
+     "authors":"<b>Sagar Hosangadi Prutvi</b>, Mallikarjuna Korrapati, and Dipti Gupta<sup>*</sup>",
+     "journal":"<i>Measurement Science and Technology</i> 33 (7), 075115 (2022)",
+     "date" : "2022",
+     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/ac5b2b/meta'> https://doi.org/10.1088/1361-6501/ac5b2b </a>"
+   },
+
+   {
+     "title":"Triboelectric effect based self-powered compact vibration sensor for predictive maintenance of industrial machineries",
+     "authors":"<b>Hosangadi Prutvi Sagar</b>, Sunil Meti, Udaya K Bhat, and Dipti Gupta<sup>*</sup>",
+     "journal":"<i>Measurement Science and Technology  </i> 32 (9), 095119 (2021)",
+     "date" : "2021",
+     "DOI":"<a href='https://iopscience.iop.org/article/10.1088/1361-6501/abe6d2/meta'> https://doi.org/10.1088/1361-6501/abe6d2 </a>"
+   },
+
+   {
+     "title":"Transient dynamic distributed strain sensing using photonic crystal waveguides",
+     "authors":"<b>Hosangadi Prutvi Sagar</b>, Vignesh Mahalingam, Debiprosad Roy Mahapatra<sup>*</sup>, Gopalkrishna Hegde, Sathyanarayana Hanagud, and Mohammad Rizwanur Rahman",
+     "journal":"<i>Applied Optics </i> 56 (28), 7877-7885 (2017)",
+     "date" : "2017",
+     "DOI":"<a href='https://opg.optica.org/ao/abstract.cfm?uri=ao-56-28-7877'> https://doi.org/10.1364/AO.56.007877 </a>"
+   }
+  ],
+
+  "co_author_pubs":[
+    
+    {
+     "title":"Rapid one step fabrication of hydrophilic hierarchical porous PDMS with negative piezopermittivity for sensing and energy storage applications",
+     "authors":"Chithra Parameswaran, Raghvendra Pratap Chaudhary, <b>Sagar Hosangadi Prutvi</b>, and Dipti Gupta<sup>*</sup>",
+     "journal":"<i>ACS Applied Polymer Materials </i> 4 (3), 2047-2056 (2022)",
+     "date" : "2022",
+     "DOI":"<a href='https://pubs.acs.org/doi/abs/10.1021/acsapm.1c00593'> https://doi.org/10.1021/acsapm.1c00593 </a>"
+   },
+
+   {
+     "title":"Assessment of triboelectricity in colossal-surface-area-lanthanum oxide nanocrystals synthesized via low-temperature hydrothermal process",
+     "authors":"Sunil Meti, <b>Hosangadi Prutvi Sagar</b>, Mohammad Rizwanur Rahman, and K. Udaya Bhat<sup>*</sup>",
+     "journal":"<i>Journal of Materials Science: Materials in Electronics </i> 32, 20351-20361 (2021)",
+     "date" : "2021",
+     "DOI":"<a href='https://link.springer.com/article/10.1007/s10854-021-06545-7#citeas'> https://doi.org/10.1007/s10854-021-06545-7 </a>"
+   },    
+
+   {
+     "title":"Newly developed thermoplastic polyolefin encapsulant–A potential candidate for crystalline silicon photovoltaic modules encapsulation",
+     "authors":"Baloji Adothu, Parth Bhatt, Shashwata Chattopadhyay, Sarita Zele, Jeroen Oderkerk, <b>H.P. Sagar</b>, Francis Reny Costa, and Sudhanshu Mallick<sup>*</sup>",
+     "journal":"<i>Solar Energy  </i> 194, 581-588 (2019)",
+     "date" : "2019",
+     "DOI":"<a href='https://www.sciencedirect.com/science/article/abs/pii/S0038092X19311089'> https://doi.org/10.1016/j.solener.2019.11.018 </a>"
+   },
+
+   {
+     "title":"A single step unique microstructural growth of porous colossal dielectric constant titanium oxide",
+     "authors":"Sunil Meti, <b>Sagar Prutvi Hosangadi</b>, M.R. Rahman, and Udaya K. Bhat<sup>*</sup>",
+     "journal":"<i>Applied Physics A</i> 125, 1-10 (2019)",
+     "date" : "2019",
+     "DOI":"<a href='https://link.springer.com/article/10.1007/s00339-019-2477-0'> https://doi.org/10.1007/s00339-019-2477-0 </a>"
+   },   
+
+   {
+     "title":"Efficient light trapping and interface engineering for performance enhancement in PTB7-Th: PC70BM organic solar cells",
+     "authors":"Kunal Borse, Ramakanth Sharma, <b>H.P. Sagar</b>, P. Anil Reddy, Dipti Gupta, and Aswani Yella<sup>*</sup>",
+     "journal":"<i>Organic Electronics</i> 41, 280-286 (2017)",
+     "date" : "2017",
+     "DOI":"<a href='https://www.sciencedirect.com/science/article/abs/pii/S1566119916304979'> https://doi.org/10.1016/j.orgel.2016.11.016 </a>"
+   }
+
+  ],
+
+   "conference":[
+    
+    {
+     "title":"Triboelectric effect based self-powered vibration sensor",
+     "authors":"<b>Sagar H P</b>, Dipti Gupta",
+     "journal":"<i>RPG 2020 </i>, RPG house, Goenka groups (poster presentation and demonstration)",
+     "date" : "2020"
+   },
+
+   {
+     "title":"Triboelectric effect-based pedometer",
+     "authors":"<b>Sagar H P</b>, Dipti Gupta",
+     "journal":"<i>TechConnect 2019-20 </i>,IIT Bombay, (poster presentation and demonstration)",
+     "date" : "2020"
+   },
+
+    {
+     "title":"Design and development of Triboelectric effectbased wind energy harvester",
+     "authors":"<b>Sagar H P</b>, Dipti Gupta",
+     "journal":"<i>TechConnect 2018-19 </i>,TCTD project, IIT Bombay, (poster presentation and demonstration)",
+     "date" : "2019"
+   },
+
+   {
+     "title":"",
+     "authors":"",
+     "journal":"<i>MIT Tata Centre Annual Symposium </i> <b>Boston, USA</b>, (participation) </br> ",
+     "date" : "2018"
+   },
+
+   {
+     "title":"Design and development of Triboelectric effectbased wind energy harvester",
+     "authors":"<b>Sagar H P</b>, Dipti Gupta",
+     "journal":"<i>Tata Centre for Technology and Design (TCTD) 3rd annual symposium </i> IIT Bombay, (poster presentation and demonstration)",
+     "date" : "2018"
+   },
+
+
+   {
+     "title":"Design and development of Triboelectric effect-based wind energy harvester",
+     "authors":"<b>Sagar H P</b>, Mohammad Ali khan and Dr. Dipti Gupta,",
+     "journal":"<i>Tata Centre for Technology and Design (TCTD) 2nd annual symposium </i> IIT Bombay, (poster presentation)",
+     "date" : "2018"
+   },
+
+   {
+     "title":"Graphene Integrated Waveguide for Molecular Sensing",
+     "authors":"<b>Sagar H P</b>,  MR Rahman, ",
+     "journal":"<i>International Engineering Symposium (IES) - 2015, </i> <b>Kumamoto University, Kumamoto, Japan</b>",
+     "date" : "2015"
+   }
+
+  ],
+
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
+      "organization": "Indian Institute of Technology Bombay",
       "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "position": "MEMS Departmental coordinator",
+      "startDate": "2017",
+      "endDate": "2018",
+      "summary": "coordinated for various departmental activities",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "orientation for new joinees",
+        "facilitating recruitment activities"
       ]
     },
     {
@@ -110,6 +331,39 @@
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
+
+  "certificates": [
+
+    {
+      "name": "Generative AI fundamentals",
+      "date": "2023",
+      "awarder": "Databricks",
+      "certificate_id": "<a href='https://credentials.databricks.com/1194e930-ffcb-4239-b2ed-0f18c6242e31'> 80855880 </a>"
+    },
+    
+    {
+      "name": "NLP - Natural Language Processing with Python",
+      "date": "2022",
+      "awarder": "Udemy",
+      "certificate_id": "<a href='https://www.udemy.com/certificate/UC-e127fc79-def3-49ad-beac-4534619aaf04/'> ude.my/UC-e127fc79-def3-49ad-beac-4534619aaf04 </a>"
+    },
+
+    {
+      "name": "Python for Time Series Data Analysis",
+      "date": "2022",
+      "awarder": "Udemy",
+      "certificate_id": "<a href='https://www.udemy.com/certificate/UC-cda41e68-2391-462f-a6e2-416c99dbe01d/'> UC-cda41e68-2391-462f-a6e2-416c99dbe01d </a>"
+    },
+
+    {
+      "name": "Python for Data Science and Machine learning bootcamp",
+      "date": "2021",
+      "awarder": "Udemy",
+      "certificate_id": "<a href='https://www.udemy.com/certificate/UC-de6f4fd2-f47e-468c-8de7-ae172ff05fb2/'> UC-de6f4fd2-f47e-468c-8de7-ae172ff05fb2 </a>"
+    }
+
+  ],
+
   "references": [
     {
       "name": "Available upon request"
