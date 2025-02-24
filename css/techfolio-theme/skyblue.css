@@ -12,7 +12,7 @@
   --tf-blue4: #bde3f0;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--tf-blue1);
-  --tf-pill-bg: var(--tf-blue3);
+  --tf-pill-bg: var(--tf-blue1);
   --tf-icon-fill: var(--tf-blue1);
   --tf-icon-hover: var(--tf-blue3);
   --tf-page-bg-color: var(--bs-white);
@@ -43,18 +43,56 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
-}
-
 .rounded-circle {
   border-color: var(--tf-blue1);
   border-style: solid;
   border-width: 1px;
+}
+
+.col-auto.title {
+  display: flex; /* Applies flexbox layout to the column */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  width: auto; /* Allows the column width to fit the content */
+  white-space: nowrap; /* Prevents text from wrapping */
+  margin-right: 10px; /* Optional: adds space between the title and tags */
+}
+
+.row.align-items-center {
+  display: flex; /* Ensure the row uses flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.interests-container {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Space between grid items */
+  margin-top: 10px;
+}
+
+/* Style for each interest tag */
+.interest-tag {
+  display: flex; /* Use flexbox for the tag content */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 3px 6px; /* Padding */
+  background-color: #ffffff; /* White background color */
+  border: 1px solid #000000; /* Black border color */
+  border-radius: 15px; /* Rounded corners */
+  font-size: 1em; /* Font size */
+  color: #000000; /* Black text color */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-align: center; /* Center text within the tags */
+  height: 60px; /* Fixed height to accommodate font size and two lines of text */
+  overflow: hidden; /* Hide overflow text */
+  display: -webkit-box; /* Needed for line clamping */
+  -webkit-line-clamp: 2; /* Limit text to 2 lines */
+  -webkit-box-orient: vertical; /* Orient the box vertically */
+  box-sizing: border-box; /* Include padding and border in the height calculation */
+}
+
+.interest-tag:hover {
+  background-color: #ffffff; /* Light gray background color on hover */
+  border-color: #000000; /* Darker gray border color on hover */
 }
