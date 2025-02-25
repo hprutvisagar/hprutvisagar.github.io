@@ -36,7 +36,6 @@
   },
 
   "skills": [
-
     {
       "name": "Data Science & Machine Learning",
       "keywords": [
@@ -49,7 +48,7 @@
     {
       "name": "Design, Simulation & Analysis",
       "keywords": [
-        {"Simulations": [" COMSOL Multiphysics", "Ansys"]},
+        {"Simulations": ["COMSOL Multiphysics", "Ansys"]},
         {"Analysis": ["MATLAB", "Mathematica"]},
         {"CAD Tools": ["Solidworks", "Creo (Pro-E)", "AutoCAD"]},
         {"Technologies": ["Rapid-Prototyping", "SEM", "AFM", "ScreenPrinting", "Thermal-Evaporator", "Plasma & Vacuum systems"]},
