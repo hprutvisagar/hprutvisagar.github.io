@@ -12,7 +12,8 @@
   --tf-icon-hover: var(--bs-gray-500);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  /*--tf-projects-bg-color: var(--bs-gray-100);*/
+  --tf-projects-bg-color: var(--bs-white);  /* hps edited line */
 }
 
 /* Format social media icons */

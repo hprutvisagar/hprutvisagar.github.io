@@ -18,7 +18,7 @@ summary: "Using the publically available Nasa turbofan dataset, we have estimate
 <head>
 <style>
   body {
-  background-image:url("../img/datascience/turbojet.png");
+  /*background-image:url("../img/datascience/turbojet.png"); */
   /* background-repeat: no-repeat; */
   /* background-size: contain; */
   /* background-attachment: fixed; */

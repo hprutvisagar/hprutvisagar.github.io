@@ -12,7 +12,7 @@ labels:
   - Regression, & classification models
   - Anamoly detection, Time series analysis & Forecasting
   - AWS Sagemaker & Canvas
-summary: "Portfolio projects using public datasets"
+summary: "Portfolio projects using publicly available datasets"
 ---
 
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
