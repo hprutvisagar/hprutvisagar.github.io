@@ -32,16 +32,16 @@
       { "name": "Research & Development" },
       { "name": "Modeling & simulations" },
       { "name": "Data science & coding" }
-    ],
+    ]
   },
 
   "skills": [
     {
       "name": "Data Science & Machine Learning",
       "keywords": [
-        {"Python": ["Pandas", "Numpy","Seaborn","Scikit-learn", "NLTK", "Spacy","Keras","Tensorflow","Mlflow","Plotly","Orange"]},
+        {"Python": ["Pandas", "Tensorflow", "PyTorch","Numpy","Seaborn","Scikit-learn", "NLTK", "Spacy", "Keras", "Mlflow", "Plotly", "Orange"]},
         {"Big Data": ["PowerBI", "PySpark", "SQL"]},
-        {"Cloud": ["AWS (SageMaker & Canvas)", "Palantir Foundry"]}
+        {"Cloud": ["AWS (SageMaker & Canvas)", "Azure (ML studio and Data factory)", "Palantir Foundry (Ontology)"]}
         ],
     },
 
@@ -51,7 +51,7 @@
         {"Simulations": ["COMSOL Multiphysics", "Ansys"]},
         {"Analysis": ["MATLAB", "Mathematica"]},
         {"CAD Tools": ["Solidworks", "Creo (Pro-E)", "AutoCAD"]},
-        {"Technologies": ["Rapid-Prototyping", "SEM", "AFM", "ScreenPrinting", "Thermal-Evaporator", "Plasma & Vacuum systems"]},
+        {"Technologies": ["Silicon Wafer Processing","Rapid-Prototyping", "SEM", "AFM", "ScreenPrinting", "Thermal-Evaporator", "Plasma & Vacuum systems"]},
         {"Electronics": ["Analog Circuits", "Arduino", "Instrumentation"]},
         ]
     }
@@ -59,14 +59,6 @@
   ],
 
   "education": [
-    {
-      "institution": "Universität Freiburg (Germany)",
-      "area": "Frequency tunable triboelectric energy harvester",
-      "studyType": "Post Doctorate Researcher",
-      "startDate": "2024",
-      "endDate": "Present",
-      "finalgrade": "N.A."
-    },
     {
       "institution": "Indian Institute of Technology Bombay (India)",
       "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
@@ -92,7 +84,22 @@
       "finalgrade": "71.8 %"
     }
   ],
+
   "work": [
+    {
+      "company": "Albert-Ludwigs-Universität Freiburg",
+      "position": "Postdoc Researcher",
+      "website": "",
+      "startDate": "May, 2024",
+      "endDate": "Present",
+      "summary": "Developing frequency tunable triboelectric energy harvesters",
+      "highlights": [
+        "Developed an ML-based system that uses force sensor data to implement surface parallelization in tribo devices.",
+        "Built Python-based automation tools for multi-device lab instrumentation and data acquisition.",
+        "Designing a frequency tunable triboelectric energy harvester."
+      ]
+    },
+
     {
       "company": "Swiss Re",
       "position": "Data & Analytics Specialist",
@@ -329,6 +336,20 @@
   ],
 
   "certificates": [
+
+    {
+      "name": "Generative AI with Large Language Models",
+      "date": "2025",
+      "awarder": "Coursera",
+      "certificate_id": "<a href='https://www.coursera.org/account/accomplishments/verify/QNU5SR1U9UIP'> QNU5SR1U9UIP </a>"
+    },
+
+    {
+      "name": "Azure Machine Learning & MLOps: Beginner to Advance",
+      "date": "2025",
+      "awarder": "Udemy",
+      "certificate_id": "<a href=''> Ongoing </a>"
+    },
 
     {
       "name": "Generative AI fundamentals",

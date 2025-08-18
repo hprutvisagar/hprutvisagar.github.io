@@ -20,7 +20,8 @@
               <div class="col">
                 <div class="interests-container">
                   {% for interest in site.data.bio.basics.interests %}
-                    <span class="interest-tag">{{ interest.name }}</span>
+                    <!-- <span class="interest-tag">{{ interest.name}}, </span> -->
+                     <span class="interest-tag">{{ interest.name }}{% if forloop.last == false %}, {% endif %}</span>
                   {% endfor %}
                 </div>
               </div>
