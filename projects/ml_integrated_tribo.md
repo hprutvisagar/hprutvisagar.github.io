@@ -46,11 +46,13 @@ The required data are collected in two parts namely:
 Initially, we conducted the controlled tests to collect the required data for building ML model. The objective was to understand the model signature and identify the scope of ML requirements. With the set of prior data gathering, we identified the optimal model to be classifier model and frooze the number of categories.
 
 <h3>Synthetic data</h3>
-Since the manual experimentations are tedious and very difficult to generate the large amount of (stastically acceptable) data required to build the ML model, synthetic data was generated using the required stastical parameters. About, 100 data points were generated for each of the classes. The datapoints was programatically generated using custom built python function, but without the user action column. Then a seperate python application was developed, which pulled this random data and recreated the force sensor output. This render was tagged (i.e., human required action) was tagged against each of this set of data manually, ensuring that the data now contains human input. this process expedites the input data generation required. The image of the applicaition developed is shown below.
+Since the manual experimentations are tedious and very difficult to generate, and ML modeling requires large amount of data to generate pattern and learn from it,  synthetic (but stastically acceptable) data is generated. This synthetic data is generated using the required stastical parameters extracted from the experimental data, and ensured to have enough data for each categories. About, 100 data points were generated for each of the classes. The datapoints was programatically generated using custom built python function, but without the user action column. Then a seperate python application was developed, which pulled this random data and recreated the force sensor output. This render was tagged (i.e., human required action) was tagged against each of this set of data manually from the human experts who manually tagged the data previously, ensuring that the data now contains human input. this process expedites the input data required for the ML model and then tagged with human experts. The image of the applicaition developed is shown below.
 
-< add the image here >
+<img src="../img/data_tagger.JPG" Height=350px width=Auto class="img-fluid" >
 
-Source: <a href="https://github.com/hprutvisagar/IMX_bearing_dataset.git">hprutvisagar/IMX_bearing_dataset</a>
+<h3>ML models</h3>
+
+<!-- Source: <a href="https://github.com/hprutvisagar/IMX_bearing_dataset.git">hprutvisagar/IMX_bearing_dataset</a> -->
 
 <!-- This IMX_bearing dataset is an extensive data set comprising of unstructured data from run-to-failure experiments of a ball bearing. This data has readings from 4 different sensors. The failure modes are recorded and attributed to each experiment. My objective is to use this sensor readings and predict the failure modes.
 
