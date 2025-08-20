@@ -91,7 +91,8 @@ layout: home
             <div class="col-9">
               <p class="m-0"><b>{{ entry.institution }}</b></p>
               <p class="m-0"><b>{{ entry.studyType }}</b>, {{ entry.area }}</p>
-              <p class="m-0">Final Grade: {{ entry.finalgrade }} </p>
+              <p class="m-0"><b>Thesis: </b>{{ entry.thesis }}</p>
+              <p class="m-0"><b>Final Grade: </b> {{ entry.finalgrade }} </p>
               {% if entry.courses %}
                 <ul>
                   {% for course in entry.courses %}

@@ -61,8 +61,9 @@
   "education": [
     {
       "institution": "Indian Institute of Technology Bombay (India)",
-      "area": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
-      "studyType": "Ph.D. Research Scholar",
+      "area": "sensors and micro energy harvesting using triboelectric effect",
+      "thesis": "Triboelectric effect driven self powered vibration sensors and wind energy harvesting for enabling industry 4.0",
+      "studyType": "Ph.D.",
       "startDate": "2016",
       "endDate": "2022",
       "finalgrade": "8.6 CGPA"
@@ -70,6 +71,7 @@
     {
       "institution": "National Institute of Technology Karnataka, Surathkal (India)",
       "area": "Nanotechnology",
+      "thesis": "Design and analysis of 1D silicon photonic crystalbased strain and mass sensor.",
       "studyType": "M.Tech.",
       "startDate": "2013",
       "endDate": "2015",
@@ -78,6 +80,7 @@
     {
       "institution": "Dr. Ambedkar Institute of Technology Bengaluru (India)",
       "area": "Mechanical Engineering",
+      "thesis": "Design and development of automated bike washer unit",
       "studyType": "B.E.",
       "startDate": "2007",
       "endDate": "2011",
