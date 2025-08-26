@@ -50,6 +50,10 @@ Since the manual experimentations are tedious and very difficult to generate, an
 
 <img src="../img/data_tagger.JPG" Height=350px width=Auto class="img-fluid" >
 
+<h3>Data logger</h3>
+
+<img src="../img/data_logger.png" Height=350px width=Auto class="img-fluid" >
+
 <h3>ML models</h3>
 
 <!-- Source: <a href="https://github.com/hprutvisagar/IMX_bearing_dataset.git">hprutvisagar/IMX_bearing_dataset</a> -->
