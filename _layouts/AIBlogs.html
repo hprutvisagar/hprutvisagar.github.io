@@ -1,0 +1,55 @@
+---
+layout: home
+---
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js">
+</script>
+
+<div class="container-fluid py-4">
+  <div class="row">
+
+    <!-- Left Column: Chapters + Sections Tree -->
+    <div class="col-md-3">
+      <h4 class="navbar-brand">Contents</h4>
+
+      {% assign chapters = site.AIBlogs | group_by:"chapter" %}
+      {% if chapters %}
+        <ul class="list-unstyled">
+          {% for ch in chapters %}
+            {% assign first_note = ch.items | sort: "weight" | first %}
+            <li>
+              {% if first_note %}
+                <a class="text-decoration-none text-dark" href="{{ first_note.url }}">{{ ch.name }}</a>
+              {% else %}
+                {{ ch.name }}
+              {% endif %}
+
+              {% if ch.items %}
+                <ul class="list-unstyled ms-3">
+                  {% assign sorted_notes = ch.items | sort:"weight" %}
+                  {% for note in sorted_notes %}
+                    <li>
+                      <a class="text-decoration-none text-dark" href="{{ note.url }}">{{ note.section }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No chapters found. Make sure your `_AIBlogs/` folder has notes with `chapter` front matter.</p>
+      {% endif %}
+    </div>
+
+    <!-- Middle Column: Main Content -->
+    <div class="col-md-9">
+      <div class="container py-2">
+        <h1 class="display-4">{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </div>
+
+  </div>
+</div>

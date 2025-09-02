@@ -30,3 +30,7 @@ include:
   - _data
 plugins:
   - jekyll-gist
+collections:
+  AIBlogs:
+    output: true
+    permalink: /AIBlogs/:name/

@@ -39,3 +39,9 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+/* mjx-container[jax="CHTML"] {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+} */
