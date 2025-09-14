@@ -22,6 +22,8 @@ In our experimental setup, 3 force sensors are implmented behind the stationary 
 
 The objective of this system is to reduce this complications and provide a clear single text instruction based on real-time sensor data and improve the process. Since the setup has 3 force sensors, which balance the tribo active surface, Each of these force sensors can be moved forward or backward at micro meter scale using micro screws placed behind them. This means, that the user has 6 permutations to adjust the position of each microscrew (2 for each microscrew). 
 
+<img src="../img/datascience/ml_concept.png" Height=350px width=Auto class="img-fluid" >
+
 <h3> Data </h3>
 
 The data from the experiments, is a square wave pattern and is characterised by its pulse height and pulse width(load cycle). We treated the pulse width(loading cycle) as 50% as its not consequential to our ML model. While the pulse height is very critical to our operations. To build the ML model compatible data, we collected the data from 3 force sensors, extracted its meaningful info (i.e., its pulse height) and saved against the timestamp, there by saving its critical information without loosing its trend in time domain.

@@ -112,7 +112,7 @@
       "summary": "Worked as an <b> A.V.P. </b> to implement Data science initiatives for process improvements",
       "highlights": [
         "Generating analytical & data science solutions to enhance processes and guide business decisions.",
-        "Designed and developed an end-to-end client ranking solution to automate the auditing process."
+        "Designed and developed an end-to-end client ranking solution to automate the auditing process, reducing operational duration from months to hours."
       ]
     },
     {
@@ -121,12 +121,16 @@
       "website": "",
       "startDate": "Jun, 2021",
       "endDate": "Aug, 2023",
-      "summary": "Executive in Data Science Services group",
+      "summary": "Data Science Services group - Landmark division",
       "highlights": [
-        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction).",
-        "Designing and optimizing High level architecture for ML model development, deployment and consumption.",
-        "Supporting company outreach activities by preparing technical abstracts for conferences.",
         "Translating business needs into Data Science problem statements.",
+        "Led group of 4-5 data scientists to deliver data science solutions for various business units.",
+        "Developed Application runtime prediction model, using both structured and unstructured data, with more than 95% accuracy ",
+        "Submitted 2 patent applications for enhancing field processes focusing on AI/ML and innovative sensors",
+        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction).",
+        "Designing and optimizing High level architecture for ML model development, deployment and Inference.",
+        "Supporting company outreach activities by preparing technical abstracts for conferences.",
+        "Mentoring junior data scientists and interns."
       ]
     },
 
