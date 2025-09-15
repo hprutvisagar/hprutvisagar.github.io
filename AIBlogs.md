@@ -28,3 +28,4 @@ content will appear soon. :)
 2. Model monitoring (Drift analysis etc)
 3. Model Training vs retraining
 4. Bias variance tradeoffs
+5. SciML &  PINN
