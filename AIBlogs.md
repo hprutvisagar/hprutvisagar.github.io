@@ -17,15 +17,17 @@ content will appear soon. :)
 4. Feature engineering
 5. Handling class imbalances (smot library)
 
-## Various model and its explainations
+## Various model and its evaluation metrices
 1. Various ML models along with best practices
 2. clustering algorithms (including WCSS plot)
 3. Deep networks (drop off/Early stop/branch pruning/embedding)
 4. Evaluation metrics
 
-## high level usecases
+## high level informations...
 1. Model interpretibility (Shapley models,Pydotplus tree visualisers ,latest paper of EPFL etc)
 2. Model monitoring (Drift analysis etc)
 3. Model Training vs retraining
 4. Bias variance tradeoffs
 5. SciML &  PINN
+6. Model deployment logics
+7. Data pipeline managements
