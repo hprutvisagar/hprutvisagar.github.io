@@ -104,6 +104,20 @@
     },
 
     {
+      "company": "Avivo.AI",
+      "position": "Data science consultant",
+      "website": "",
+      "startDate": "Sept, 2025",
+      "endDate": "Present",
+      "summary": "Co/developing RAG based contract intelligence system",
+      "highlights": [
+        "Leading GenAI product development efforts, co-owning architecture decisions for a context-aware RAG-based analytics platform targeting enterprise contract intelligence.",
+        "Built a reusable clause library with synthetic clause-generation feature using OpenAI in Streamlit.",
+        "Translating ambiguous business requirements into deployable GenAI workflows."
+      ]
+    },
+
+    {
       "company": "Swiss Re",
       "position": "Data & Analytics Specialist",
       "website": "",
