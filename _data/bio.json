@@ -12,9 +12,9 @@
     <p>Explore my portfolio to see my work in action. If any of my skills, projects or expertise resonate with you, <br> <b>let's connect, collaborate, and create something remarkable together.</p> </b></center>",
    
     "location": { 
-      "address": "Sundgaualle 58", 
+      //"address": "Sundgaualle 58", 
       //"address2": "Wohnung Nr: 58-00-04",
-      "postalCode": "79110", 
+      //"postalCode": "79110", 
       "city": "Freiburg", 
       "countryCode": "Germany", 
       // "region": "Karnataka" 
