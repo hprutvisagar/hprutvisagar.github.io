@@ -14,28 +14,33 @@ layout: home
       <h4 class="navbar-brand">Contents</h4>
 
       {% assign chapters = site.AIBlogs | group_by:"chapter" %}
+      {% assign chapter_order = "Foundations|Setup|Supervised Learning|Un-Supervised Learning|Time Series|Computer Vision" | split:"|" %}
+
       {% if chapters %}
         <ul class="list-unstyled">
-          {% for ch in chapters %}
-            {% assign first_note = ch.items | sort: "weight" | first %}
-            <li>
-              {% if first_note %}
-                <a class="text-decoration-none text-dark" href="{{ first_note.url }}">{{ ch.name }}</a>
-              {% else %}
-                {{ ch.name }}
-              {% endif %}
+          {% for ch_name in chapter_order %}
+            {% assign ch = chapters | where: "name", ch_name | first %}
+            {% if ch %}
+              {% assign first_note = ch.items | sort: "weight" | first %}
+              <li>
+                {% if first_note %}
+                  <a class="text-decoration-none text-dark" href="{{ first_note.url }}">{{ ch.name }}</a>
+                {% else %}
+                  {{ ch.name }}
+                {% endif %}
 
-              {% if ch.items %}
-                <ul class="list-unstyled ms-3">
-                  {% assign sorted_notes = ch.items | sort:"weight" %}
-                  {% for note in sorted_notes %}
-                    <li>
-                      <a class="text-decoration-none text-dark" href="{{ note.url }}">{{ note.section }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
+                {% if ch.items %}
+                  <ul class="list-unstyled ms-3">
+                    {% assign sorted_notes = ch.items | sort:"weight" %}
+                    {% for note in sorted_notes %}
+                      <li>
+                        <a class="text-decoration-none text-dark" href="{{ note.url }}">{{ note.section }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
       {% else %}
