@@ -26,25 +26,42 @@
     ]
   },
   "skills": [
-    {
-      "name": "Data Science & Machine Learning",
-      "keywords": [
-        {"Python": ["Pandas", "Tensorflow", "PyTorch","Numpy","Seaborn","Scikit-learn", "NLTK", "Spacy", "Keras", "Mlflow", "Plotly", "Orange"]},
-        {"Big Data": ["PowerBI", "PySpark", "SQL"]},
-        {"Cloud": ["AWS (SageMaker & Canvas)", "Azure (ML studio and Data factory)", "Palantir Foundry (Ontology)"]}
-      ]
-    },
-    {
-      "name": "Design, Simulation & Analysis",
-      "keywords": [
-        {"Simulations": ["COMSOL Multiphysics", "Ansys"]},
-        {"Analysis": ["MATLAB", "Mathematica"]},
-        {"CAD Tools": ["Solidworks", "Creo (Pro-E)", "AutoCAD", "Solid Edge"]},
-        {"Technologies": ["Silicon Wafer Processing","Rapid-Prototyping", "SEM", "AFM", "ScreenPrinting", "Thermal-Evaporator", "Plasma & Vacuum systems"]},
-        {"Electronics": ["Analog Circuits", "Arduino", "Instrumentation"]}
-      ]
-    }
+  {
+    "name": "AI, Machine Learning & Data Science",
+    "keywords": [
+      {"Frameworks": ["TensorFlow", "Keras", "PyTorch", "Scikit-learn"]},
+      {"Methods": ["Neural Networks", "Time-Series Modeling", "Anomaly Detection", "Predictive Maintenance"]},
+      {"Generative AI": ["RAG Systems", "LLMs (OpenAI, Gemini)", "LangChain", "Agentic Workflows (Agno)"]},
+      {"Programming": ["Python (Pandas, NumPy, SciPy)", "SQL", "PySpark"]},
+      {"Analytics": ["Feature Engineering", "Statistical Analysis", "Hypothesis Testing", "ETL/ELT Pipelines"]}
+    ]
+  },
+  {
+    "name": "Signal Processing & Experimental Systems",
+    "keywords": [
+      {"Signal Processing": ["FFT", "PSD", "Wavelets", "Noise Filtering"]},
+      {"Sensor Systems": ["Sensor Calibration", "Data Acquisition", "Multi-Instrument Experiments"]},
+      {"Data Workflows": ["Real-time Signal Analysis", "Noise-Robust Modeling", "Experimental Validation"]}
+    ]
+  },
+  {
+    "name": "Mechanical Design & Simulation",
+    "keywords": [
+      {"CAD Tools": ["Solid Edge", "Creo", "SolidWorks", "AutoCAD"]},
+      {"Simulation": ["ANSYS", "Abaqus", "COMSOL Multiphysics"]},
+      {"Design Expertise": ["Parametric 3D Modeling", "Complex Assemblies", "Modular Design", "Design Standardization"]}
+    ]
+  },
+  {
+    "name": "Platforms, MLOps & Visualization",
+    "keywords": [
+      {"MLOps": ["Docker", "Git", "MLflow"]},
+      {"Visualization & UI": ["Streamlit", "Plotly", "Power BI", "PyQt"]},
+      {"Cloud Platforms": ["AWS", "Azure", "Palantir Foundry"]}
+    ]
+  }
   ],
+  
   "education": [
     {
       "institution": "Indian Institute of Technology Bombay (India)",
