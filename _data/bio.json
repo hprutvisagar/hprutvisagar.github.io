@@ -9,8 +9,7 @@
     "website": "https://hprutvisagar.github.io",
     "summary": "<center> <p> Welcome to my online portfolio! <br> I am currently a <b> Post-Doctoral researcher</b> at Universität Freiburg. <br> I hold an engineering Ph.D., from the prestigious <b>Indian Institute of Technology Bombay (IIT-B)</b> and bring rich expertise in the fascinating field of <b>Tribo-electric Nanogenerators (TENG)</b> and <b>electromechanical devices.</b></p> <p> Along with a wealth of Research & Development activities, I have 7 years of professional experience. My diverse skill set encompass <b>Data Science, Mechanical, Electrical and Electronics engineering </b>, as well as proficient coding abilities. These enable me to tackle intricate multidisciplinary challenges with finesse. </p> <p>Explore my portfolio to see my work in action. If any of my skills, projects or expertise resonate with you, <br> <b>let's connect, collaborate, and create something remarkable together.</p> </b></center>",
     "location": { 
-      "city": "Freiburg", 
-      "countryCode": "Germany"
+      "city": "Freiburg, Germany"
     },
     "profiles": [
       { "network": "github", "username": "hprutvisagar", "url": "https://github.com/hprutvisagar" },
@@ -27,41 +26,159 @@
   },
   "skills": [
   {
-    "name": "AI, Machine Learning & Data Science",
+    "name": "AI, Machine Learning & Generative AI",
     "keywords": [
-      {"Frameworks": ["TensorFlow", "Keras", "PyTorch", "Scikit-learn"]},
-      {"Methods": ["Neural Networks", "Time-Series Modeling", "Anomaly Detection", "Predictive Maintenance"]},
-      {"Generative AI": ["RAG Systems", "LLMs (OpenAI, Gemini)", "LangChain", "Agentic Workflows (Agno)"]},
-      {"Programming": ["Python (Pandas, NumPy, SciPy)", "SQL", "PySpark"]},
-      {"Analytics": ["Feature Engineering", "Statistical Analysis", "Hypothesis Testing", "ETL/ELT Pipelines"]}
+      {"Core Methods": [
+        "Supervised Learning (Classification, Regression)",
+        "Unsupervised Learning",
+        "Neural Networks",
+        "Time-Series Modeling",
+        "Anomaly Detection",
+        "Predictive Maintenance",
+        "Forecasting",
+        "Statistical Modeling",
+        "Model Validation & Performance Benchmarking"
+      ]},
+      {"Generative AI": [
+        "RAG Systems",
+        "LLMs (OpenAI, Gemini)",
+        "LangChain",
+        "Agentic Workflows(Agno)"
+      ]},
+      {"Frameworks & Libraries": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "NLTK",
+        "spaCy",
+        "Orange"
+      ]}
     ]
   },
   {
-    "name": "Signal Processing & Experimental Systems",
+    "name": "Data Engineering & Scientific Computing",
     "keywords": [
-      {"Signal Processing": ["FFT", "PSD", "Wavelets", "Noise Filtering"]},
-      {"Sensor Systems": ["Sensor Calibration", "Data Acquisition", "Multi-Instrument Experiments"]},
-      {"Data Workflows": ["Real-time Signal Analysis", "Noise-Robust Modeling", "Experimental Validation"]}
+      {"Programming": [
+        "Python (Pandas, NumPy, SciPy)",
+        "Matlab",
+        "SQL",
+        "PySpark"
+      ]},
+      {"Data Systems": [
+        "Data Modeling",
+        "ETL/ELT Pipelines",
+        "Big Data Processing",
+        "Real-Time Data Pipelines"
+      ]},
+      {"Scientific Computing": [
+        "Numerical Modeling",
+        "Custom Algorithm Development",
+        "Object-Oriented Programming",
+        "Reproducible Workflows"
+      ]}
     ]
   },
   {
-    "name": "Mechanical Design & Simulation",
+    "name": "Signal Processing, Sensing & Experimental Systems",
     "keywords": [
-      {"CAD Tools": ["Solid Edge", "Creo", "SolidWorks", "AutoCAD"]},
-      {"Simulation": ["ANSYS", "Abaqus", "COMSOL Multiphysics"]},
-      {"Design Expertise": ["Parametric 3D Modeling", "Complex Assemblies", "Modular Design", "Design Standardization"]}
+      {"Signal Processing": [
+        "FFT",
+        "Power Spectral Density (PSD)",
+        "Wavelet Transforms",
+        "Noise Filtering"
+      ]},
+      {"Sensor Systems": [
+        "Sensor Design (Physics-based, Flexible Sensors)",
+        "Sensor Calibration",
+        "Signal Conditioning",
+        "Electronics Integration"
+      ]},
+      {"Experimental Work": [
+        "Multi-Instrument Data Acquisition",
+        "Custom Data Collection Systems",
+        "Real-World Noisy Data Analysis",
+        "Data Validation",
+        "Statistical Testing"
+      ]},
+      {"Feature Engineering": [
+        "Feature Extraction",
+        "Time-Series Analytics"
+      ]}
     ]
   },
   {
     "name": "Platforms, MLOps & Visualization",
     "keywords": [
-      {"MLOps": ["Docker", "Git", "MLflow"]},
-      {"Visualization & UI": ["Streamlit", "Plotly", "Power BI", "PyQt"]},
-      {"Cloud Platforms": ["AWS", "Azure", "Palantir Foundry"]}
+      {"MLOps & DevOps": [
+        "Docker",
+        "Git",
+        "MLflow"
+      ]},
+      {"Visualization & Interfaces": [
+        "Streamlit",
+        "Plotly",
+        "Power BI",
+        "PyQt",
+        "Matplotlib"
+      ]},
+      {"Cloud & Platforms": [
+        "AWS",
+        "Azure",
+        "Palantir Foundry"
+      ]}
+    ]
+  },
+  {
+    "name": "Mechanical Design, Simulation & Engineering Systems",
+    "keywords": [
+      {"CAD & Design": [
+        "Solid Edge",
+        "SolidWorks",
+        "Creo",
+        "AutoCAD",
+        "Parametric 3D Modeling",
+        "Complex Assemblies",
+        "Modular Design",
+        "Design Standardization"
+      ]},
+      {"Simulation": [
+        "COMSOL Multiphysics",
+        "ANSYS",
+        "Abaqus"       
+      ]},
+      {"Engineering Systems": [
+        "System Design",
+        "Integrated Electro-mechanical Systems",
+        "Physics-Based Modeling"
+      ]}
+    ]
+  },
+  {
+    "name": "Prototyping, Fabrication & Testing",
+    "keywords": [
+      {"Prototyping": [
+        "Additive Manufacturing (3D Printing)",
+        "Printed Electronics",
+        "Arduino",
+        "Hardware-in-the-Loop (HIL) Testing"
+      ]},
+      {"Fabrication & Lab Systems": [
+        "SEM",
+        "AFM",
+        "Vacuum Systems",
+        "Plasma Systems"
+      ]},
+      {"Testing & Validation": [
+        "Design of Experiments (DoE)",
+        "System Characterization",
+        "Qualification Testing",
+        "Process Scaling (Lab-to-Production)"
+      ]}
     ]
   }
-  ],
-  
+ ],
+
   "education": [
     {
       "institution": "Indian Institute of Technology Bombay (India)",
