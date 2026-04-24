@@ -215,7 +215,8 @@
       "website": "",
       "startDate": "May, 2024",
       "endDate": "Present",
-      "summary": "Developing frequency tunable triboelectric energy harvesters",
+      "summary": ["Frequency tunable TENG | Sensor Analytics | 3D CAD & Simulation | Applied Machine learning <br>",
+      "Developing frequency tunable triboelectric energy harvesters"],
       "highlights": [
         "Designed novel Frequency tunable triboelectric energy harvesting design using micro fluidic principles",
         "Led end-to-end development of sensing systems spanning novel harvestor design, experimental setup, signal acquisition, algorithm development, validation, and performance benchmarking under real-world conditions.",
@@ -230,7 +231,8 @@
       "website": "",
       "startDate": "Sept, 2025",
       "endDate": "Dec, 2025",
-      "summary": "Co/developing RAG based contract intelligence system",
+      "summary": ["GenAI | RAG | Data curation | end to end data pipeline <br>",
+      "Co/developing RAG based contract intelligence system"],
       "highlights": [
         "Built a reusable clause library tool for maintaining, reviewing, and updating contract clauses using RAG architecture with OpenAI & Langchain in Streamlit.",
         "Led development of context aware RAG POC for reliable contract intelligence.",
@@ -243,7 +245,10 @@
       "website": "",
       "startDate": "Dec, 2023",
       "endDate": "Apr, 2024",
-      "summary": "Worked as an <b> A.V.P. </b> to implement Data science initiatives for process improvements",
+      "summary": [
+        "Big data pipelines | Data analytics | PySpark | Palantir Foundry | Tech lead <br>",
+        "Worked as an <b> A.V.P. </b> to implement Data science initiatives for process improvements"
+      ],
       "highlights": [
         "Designed and developed an end-to-end client ranking solution to automate the auditing process, reducing operational duration from months to hours using Pyspark in Palantir Foundry.",
         "Generating analytical & data science solutions to enhance processes and guide business decisions.",
@@ -256,7 +261,8 @@
       "website": "",
       "startDate": "Jun, 2021",
       "endDate": "Aug, 2023",
-      "summary": "Data Science Services group - Landmark division",
+      "summary": ["Industrial sensing | Data pipelines| ML models | Signal analysis | Team-lead <br>",
+      "Data Science Services group - Landmark division"],
       "highlights": [
         "Translating business needs into Data Science problem statements.",
         "Led group of 4-5 data scientists to deliver data science solutions for various business units.",
@@ -274,7 +280,8 @@
       "position": "Senior Structural Analyst (consulting)",
       "startDate": "Jun, 2019",
       "endDate": "Jun, 2021",
-      "summary": "Translated the designers idea into an engineered product",
+      "summary": ["Mechanical design | Structural analysis | CAD modeling | Product development <br>",
+      "Translated the designers idea into an engineered product"],
       "highlights": [
         "Majorly contributed to the designing of small-scale wind turbine (Zeintein).",
         "Technical analysis of mechanisms and their kinetics.",
@@ -287,7 +294,8 @@
       "position": "Consulting Mechanical Engineer",
       "startDate": "Feb, 2019",
       "endDate": "Feb, 2020",
-      "summary": "Technical analysis for a leg prosthetic",
+      "summary": ["Consulting | Mechanical design | Structural analysis | CAD modeling | Product development <br>",
+      "Technical analysis for a leg prosthetic"],
       "highlights": [
         "Created pivotal documents for fund raising and outreach activities.",
         "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis) using 3D CAD and FEA.",
@@ -299,7 +307,8 @@
       "position": "Mechanical (CAD) Engineer",
       "startDate": "Sep, 2011",
       "endDate": "Aug, 2013",
-      "summary": "Here, my majority of the responsibilities were: ",
+      "summary": ["CAD modeling | Electrical Harness designing | Drafting | PDM & PLM <br>",
+      "Here, my majority of the responsibilities were: "],
       "highlights": [
         "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments).",
         "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses.",
@@ -307,6 +316,7 @@
       ]
     }
   ],
+
   "main_pubs": [
     {
       "title":"Self-powering vibration sensor based on a cantilever system with a single-electrode mode triboelectric nanogenerator",
