@@ -83,9 +83,11 @@
       "endDate": "Present",
       "summary": "Developing frequency tunable triboelectric energy harvesters",
       "highlights": [
-        "Developed an ML-based system that uses force sensor data to implement surface parallelization in tribo devices.",
-        "Built Python-based automation tools for multi-device lab instrumentation and data acquisition.",
-        "Designing a frequency tunable triboelectric energy harvester."
+        "Designed novel Frequency tunable triboelectric energy harvesting design using micro fluidic principles",
+        "Led end-to-end development of sensing systems spanning novel harvestor design, experimental setup, signal acquisition, algorithm development, validation, and performance benchmarking under real-world conditions.",
+        "Built custom data acquisition and annotation platforms using PyQt, enabling synchronized multi-instrument experiments, scalable dataset creation, and reproducible labeling workflows.",
+        "Designed and validated signal processing and detection algorithms on noisy, real-world sensor data, including systematic analysis of edge cases, failure modes, and environmental variability.",
+        "Developed novel signal characteristics and measures to evaluate the shape change of tribo electric signals, enabling more robust and accurate detection of events."
       ]
     },
     {
@@ -96,9 +98,9 @@
       "endDate": "Dec, 2025",
       "summary": "Co/developing RAG based contract intelligence system",
       "highlights": [
-        "Leading GenAI product development efforts, co-owning architecture decisions for a context-aware RAG-based analytics platform targeting enterprise contract intelligence.",
-        "Built a reusable clause library with synthetic clause-generation feature using OpenAI in Streamlit.",
-        "Translating ambiguous business requirements into deployable GenAI workflows."
+        "Built a reusable clause library tool for maintaining, reviewing, and updating contract clauses using RAG architecture with OpenAI & Langchain in Streamlit.",
+        "Led development of context aware RAG POC for reliable contract intelligence.",
+        "Translated ambiguous business requirements into deployable GenAI workflows."
       ]
     },
     {
@@ -109,8 +111,9 @@
       "endDate": "Apr, 2024",
       "summary": "Worked as an <b> A.V.P. </b> to implement Data science initiatives for process improvements",
       "highlights": [
+        "Designed and developed an end-to-end client ranking solution to automate the auditing process, reducing operational duration from months to hours using Pyspark in Palantir Foundry.",
         "Generating analytical & data science solutions to enhance processes and guide business decisions.",
-        "Designed and developed an end-to-end client ranking solution to automate the auditing process, reducing operational duration from months to hours."
+        "Consulted on data science projects like Risk modelling for claims and TA team"
       ]
     },
     {
@@ -123,10 +126,11 @@
       "highlights": [
         "Translating business needs into Data Science problem statements.",
         "Led group of 4-5 data scientists to deliver data science solutions for various business units.",
-        "Developed Application runtime prediction model, using both structured and unstructured data, with more than 95% accuracy ",
-        "Submitted 2 patent applications for enhancing field processes focusing on AI/ML and innovative sensors",
-        "Developing various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction).",
-        "Designing and optimizing High level architecture for ML model development, deployment and Inference.",
+        "Developed Application computetime prediction model for survey data, combining both structured and unstructured logs, with more than 95% accuracy for cost optimisation",
+        "Developed NLP based productive time/non productive time classification model based on field logs, achieving more than 90% accuracy, with dockerised implementation to optimize field operations.",
+        "Submitted 2 patent applications to predict drilling performance using novel triboelectric sensors",
+        "Developed various Machine learning models (Regression/classification/NLP/anamoly detection/failure prediction).",
+        "Developed cost optimization framework for data science initiatives.",
         "Supporting company outreach activities by preparing technical abstracts for conferences.",
         "Mentoring junior data scientists and interns."
       ]
@@ -139,7 +143,7 @@
       "summary": "Translated the designers idea into an engineered product",
       "highlights": [
         "Majorly contributed to the designing of small-scale wind turbine (Zeintein).",
-        "Understanding the mechanism and their kinetics.",
+        "Technical analysis of mechanisms and their kinetics.",
         "Translating rough sketches into CAD models for engineering analysis.",
         "Complete ownership of small scale wind turbines."
       ]
@@ -152,7 +156,7 @@
       "summary": "Technical analysis for a leg prosthetic",
       "highlights": [
         "Created pivotal documents for fund raising and outreach activities.",
-        "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis).",
+        "Performed GAIT analysis, static, dynamic and failure analysis of KAFO (knee Foot Ankle Orthosis) using 3D CAD and FEA.",
         "Actively involved in design optimization by utilizing DFx concepts (manufacturability, assembly and end-use)."
       ]
     },
@@ -165,7 +169,7 @@
       "highlights": [
         "Providing CAD Support in the product development activities of Ion Implanters (client: Varian Semiconductor Equipments).",
         "Creating engineering drawings for sheetmetal parts, solid parts and electrical harnesses.",
-        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing final flatboard drawings for final assembly."
+        "Electrical harness were major area of focus, where i took complete ownership of schematic drawing, routing path optimization, wiring optimization and developing flatboard/nailboard drawings for final assembly."
       ]
     }
   ],
