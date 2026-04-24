@@ -1,7 +1,7 @@
 ---
 layout: project
 type: datascience_project
-image: img/datascience/anomaly.jpg
+image: img/datascience/anomaly.JPG
 title: "Fleet-wide Anomaly Detection for Predictive Maintenance of Material Handlers"
 date: 2024
 published: true
