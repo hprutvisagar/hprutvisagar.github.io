@@ -50,7 +50,8 @@
       "keywords": [
         {"Simulations": ["COMSOL Multiphysics", "Ansys"]},
         {"Analysis": ["MATLAB", "Mathematica"]},
-        {"CAD Tools": ["Solidworks", "Creo (Pro-E)", "AutoCAD"]},
+        {"CAD Tools": ["Solidworks", "Creo (Pro-E)", "AutoCAD", "Solid Edge"]}
+        ],
         {"Technologies": ["Silicon Wafer Processing","Rapid-Prototyping", "SEM", "AFM", "ScreenPrinting", "Thermal-Evaporator", "Plasma & Vacuum systems"]},
         {"Electronics": ["Analog Circuits", "Arduino", "Instrumentation"]},
         ]
@@ -108,7 +109,7 @@
       "position": "Data science consultant",
       "website": "",
       "startDate": "Sept, 2025",
-      "endDate": "Present",
+      "endDate": "Dec, 2025",
       "summary": "Co/developing RAG based contract intelligence system",
       "highlights": [
         "Leading GenAI product development efforts, co-owning architecture decisions for a context-aware RAG-based analytics platform targeting enterprise contract intelligence.",
