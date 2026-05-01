@@ -13,39 +13,47 @@ layout: home
     <div class="col-md-2">
       <h4 class="navbar-brand">Contents</h4>
 
-      {% assign chapters = site.AIBlogs | group_by:"chapter" %}
-      {% assign chapter_order = "Foundations|Setup|Supervised Learning|Un-Supervised Learning|Time Series|Computer Vision" | split:"|" %}
+      {% comment %} 
+        1. Group by chapter name.
+      {% endcomment %}
+      {% assign chapters = site.AIBlogs | group_by: "chapter" %}
 
-      {% if chapters %}
-        <ul class="list-unstyled">
-          {% for ch_name in chapter_order %}
-            {% assign ch = chapters | where: "name", ch_name | first %}
-            {% if ch %}
-              {% assign first_note = ch.items | sort: "weight" | first %}
-              <li>
-                {% if first_note %}
-                  <a class="text-decoration-none text-dark" href="{{ first_note.url }}">{{ ch.name }}</a>
-                {% else %}
-                  {{ ch.name }}
-                {% endif %}
+      <ul class="list-unstyled">
+        {% comment %} 
+          2. Instead of relying on the 'sort' filter (which is failing), 
+          we loop 1 to 20 and manually pick the group that matches that weight.
+        {% endcomment %}
+        {% for i in (1..20) %}
+          {% for group in chapters %}
+            {% comment %} 
+              We take the weight of the first item in the group 
+              and add 0 to force it to be a number for comparison.
+            {% endcomment %}
+            {% assign current_ch_weight = group.items[0].chapter_weight | plus: 0 %}
+            
+            {% if current_ch_weight == i %}
+              {% assign sorted_sections = group.items | sort: "weight" %}
+              {% assign first_note = sorted_sections | first %}
 
-                {% if ch.items %}
-                  <ul class="list-unstyled ms-3">
-                    {% assign sorted_notes = ch.items | sort:"weight" %}
-                    {% for note in sorted_notes %}
-                      <li>
-                        <a class="text-decoration-none text-dark" href="{{ note.url }}">{{ note.section }}</a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
+              <li class="mb-3">
+                <a class="text-decoration-none text-dark fw-bold" href="{{ first_note.url }}">
+                  {{ group.name | strip }}
+                </a>
+
+                <ul class="list-unstyled ms-3">
+                  {% for note in sorted_sections %}
+                    <li>
+                      <a class="text-decoration-none text-muted small" href="{{ note.url }}">
+                        {{ note.section | default: note.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
               </li>
             {% endif %}
           {% endfor %}
-        </ul>
-      {% else %}
-        <p>No chapters found. Make sure your `_AIBlogs/` folder has notes with `chapter` front matter.</p>
-      {% endif %}
+        {% endfor %}
+      </ul>
     </div>
 
     <!-- Middle Column: Main Content -->
