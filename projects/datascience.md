@@ -17,6 +17,6 @@ summary: "Portfolio projects using publicly available datasets"
 
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
 
-{% include projects/datascience_projects.html limit=4 %}
+{% include projects/datascience_projects.html limit=20 %}
 
 </div>
