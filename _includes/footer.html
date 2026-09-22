@@ -1,15 +1,7 @@
-<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
-  <div class="container-fluid">
-
-    <!-- <div class="ms-auto">      
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>        
-      </ul>
-    </div> -->
-
-    <div class="col text-center"> 
-      <div class="navbar-brand"> <a href="mailto:sagarhp3589@gmail.com"> sagarhp3589@gmail.com </a> </div>
-    </div> 
-
+<footer class="site-footer">
+  <div class="container footer-shell">
+    <div class="footer-brand">{{ site.data.bio.basics.nickname }}</div>
+    <a class="footer-email" href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a>
+    <div class="footer-meta">&copy; {{ 'now' | date: "%Y" }} &middot; Built with Jekyll</div>
   </div>
 </footer>

@@ -1,25 +1,28 @@
-<div class="card mb-3">
+<article class="card project-card" data-reveal>
   <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-      <center><a href="{{ site.baseurl}}{{ include.page.url }}" ><img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start"></a></center>
+    <div class="col-md-4 project-card-media">
+      <a href="{{ site.baseurl}}{{ include.page.url }}" tabindex="-1" aria-hidden="true">
+        <img src="{{ site.baseurl }}/{{ include.page.image }}" alt="{{ include.page.title }}">
+      </a>
     </div>
-    <div class="col-sm-6 col-md-8">
+    <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">
-          <a href="{{ site.baseurl}}{{ include.page.url }}" >{{ include.page.title }} </a> <small class="text-muted float-end">{{ include.page.date }}</small>
-        </h5>
+        <p class="project-card-date">{{ include.page.date }}</p>
+        <h3 class="card-title h5 mt-1">
+          <a href="{{ site.baseurl}}{{ include.page.url }}">{{ include.page.title }}</a>
+        </h3>
         <p class="card-text">{{ include.page.summary }}</p>
-        <p>
+        <div class="tag-row">
           {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+          <span class="badge">{{ label }}</span>
           {% endfor %}
-        </p>
+        </div>
         {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
+        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project site <span class="arrow">&rarr;</span></a>
         {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read more <span class="arrow">&rarr;</span></a>
         {% endif %}
       </div>
     </div>
   </div>
-</div>
+</article>

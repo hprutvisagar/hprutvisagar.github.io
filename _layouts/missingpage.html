@@ -4,26 +4,32 @@ layout: default
 
 {% include header.html %}
 
-<div class="py-3 py-md-4 py-lg-5">
-  <div class="container">
-    <h1 class="display-4">Page Not Found</h1>
-    <p>Perhaps you were looking for one of the following:</p>
+<div class="article-page">
+  <div class="container prose">
+    <span class="eyebrow">404</span>
+    <h1 class="display-4">Page not found</h1>
+    <p class="lead">Perhaps you were looking for one of the following:</p>
 
-    <h3>Essays</h3>
-    <ul>
-      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-      {% for page in essay_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <h3>Projects</h3>
-    <ul>
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-      {% for page in project_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
+    <div class="row g-4 pt-2">
+      <div class="col-md-6">
+        <h2 class="h5">Essays</h2>
+        <ul>
+          {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+          {% for page in essay_pages %}
+          <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2 class="h5">Projects</h2>
+        <ul>
+          {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
+          {% for page in project_pages %}
+          <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 

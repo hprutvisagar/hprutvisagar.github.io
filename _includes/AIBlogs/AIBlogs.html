@@ -1,16 +1,12 @@
-<div style="background-color: var(--bs-white)" class="bg-gradient py-3" id="essays">
+<section class="section" id="essays">
   <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-4 text-start">Blogs</h1>
-      </div>
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Writing</span>
+      <h2 class="display-4">Blogs</h2>
+      <p class="section-sub"><i>some things are worth the wait ...! :)</i></p>
     </div>
 
-    <div class="row g-3">
-
-      <h4> <i> some things are worth the wait ...! :) </i>  </h4>
-
-
+    <div class="row g-4">
       {% assign essay_pages = site.pages | where: "type", "blog" | sort: "date" | reverse %}
       {% for page in essay_pages %}
         {% unless page.draft %}
@@ -27,4 +23,4 @@
     {% endif %}
 
   </div>
-</div>
+</section>

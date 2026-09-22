@@ -6,12 +6,12 @@ layout: home
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js">
 </script>
 
-<div class="container-fluid py-4">
-  <div class="row">
+<div class="container-fluid book">
+  <div class="row align-items-start">
 
     <!-- Left Column: Chapters + Sections Tree -->
-    <div class="col-md-2">
-      <h4 class="navbar-brand">Contents</h4>
+    <div class="col-md-2 book-toc">
+      <div class="book-toc-title">Contents</div>
 
       {% comment %} 
         1. Group by chapter name.
@@ -56,9 +56,10 @@ layout: home
       </ul>
     </div>
 
-    <!-- Middle Column: Main Content -->
+    <!-- Main Column: Content -->
     <div class="col-md-9">
-      <div class="container py-2">
+      <div class="container py-2 book-content">
+        <span class="eyebrow">AI Notes</span>
         <h1 class="display-4">{{ page.title }}</h1>
         {{ content }}
       </div>

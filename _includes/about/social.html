@@ -1,6 +1,6 @@
-<a href="{{ include.url }}" target="_blank">
-  <svg class="tf-social">
+<a class="social-link" href="{{ include.url }}" target="_blank" rel="noopener"{% if include.label %} aria-label="{{ include.label | escape }}"{% endif %}>
+  <svg class="tf-social" aria-hidden="true">
     <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#{{- include.name -}}"/>
   </svg>
-  <span style="padding-bottom:5px; position: absolute; padding-left:5px">{{ include.label }}</span>
+  {% if include.label %}<span>{{ include.label }}</span>{% endif %}
 </a>

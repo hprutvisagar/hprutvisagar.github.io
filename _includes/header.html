@@ -1,14 +1,15 @@
-<header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.nickname }}</a>
-    <div class="ms-auto">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
-        <!-- <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Blog</a> -->
-        <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
-        <a class="nav-link" href="{{ '/AIBlogs.html' | prepend: site.baseurl }}">AI Notes</a>
-        
-      </ul>
+<header class="site-header">
+  <nav class="container nav-shell" aria-label="Main navigation">
+    <a class="brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.nickname }}<span class="brand-dot">.</span></a>
+    <div class="nav-links">
+      <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
+      <!-- <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Blog</a> -->
+      <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
+      <a class="nav-link" href="{{ '/AIBlogs.html' | prepend: site.baseurl }}">AI Notes</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle dark / light theme">
+        <svg class="icon-sun" aria-hidden="true"><use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#sun"/></svg>
+        <svg class="icon-moon" aria-hidden="true"><use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#moon"/></svg>
+      </button>
     </div>
-  </div>
+  </nav>
 </header>
